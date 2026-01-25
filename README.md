@@ -4,10 +4,10 @@ Machine Learning Engineer specializing in CoreML conversions and on-device AI.
 
 #### Recent Milestones
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) hit **1,000 stars** — an open-source SDK for on-device audio AI (ASR, diarization, VAD) on Apple platforms.
-- **82,000+ monthly model downloads** across 31 models on [FluidInference](https://huggingface.co/FluidInference)
+- **82,000+ monthly model downloads** across different CoreML models on [FluidInference](https://huggingface.co/FluidInference)
 - **100+ Twitter followers**
 
-#### What I Build
+#### What I Do
 - Converting PyTorch models → CoreML for Apple Neural Engine
 - Real-time audio AI (transcription, speaker diarization)
 - Local-first, privacy-preserving ML
