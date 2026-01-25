@@ -17,4 +17,4 @@ Machine Learning Engineer specializing in CoreML conversions and on-device AI.
 
 
 #### Find me
-[Twitter](https://twitter.com/Alex_tra_memory) · [LinkedIn](https://linkedin.com/in/hanweng) · [HuggingFace](https://huggingface.co/FluidInference)
+[Resume](https://docs.google.com/presentation/d/1gTn48psTT_075OcYbSevkQwSSRC2b6ogUWI48x_UQ9M) · [Twitter](https://twitter.com/Alex_tra_memory) · [LinkedIn](https://linkedin.com/in/hanweng) · [HuggingFace](https://huggingface.co/FluidInference)
