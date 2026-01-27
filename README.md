@@ -14,7 +14,7 @@ Machine Learning Engineer specializing in CoreML conversions and on-device AI.
 
 #### Projects
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) — On-device audio AI for iOS/macOS (1K+ ⭐)
-- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — Speech processing with Apple MLX
+- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — Speech processing with Apple MLX (5K+ ⭐)
 - [mobius](https://github.com/FluidInference/mobius) — Model deployment across xPUs
 
 
