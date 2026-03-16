@@ -3,8 +3,8 @@
 Machine Learning Engineer specializing in CoreML conversions and on-device AI.
 
 #### Recent Milestones
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) hit **1,500 stars** — an open-source SDK for on-device audio AI (ASR, diarization, VAD) on Apple platforms.
-- **150,000+ monthly model downloads** across different CoreML models on [FluidInference](https://huggingface.co/FluidInference)
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) hit **1,700 stars** — an open-source SDK for on-device audio AI (ASR, diarization, VAD) on Apple platforms.
+- **200,000+ monthly model downloads** across different CoreML models on [FluidInference](https://huggingface.co/FluidInference)
 - **125+ Twitter followers**
 
 #### What I Do
@@ -13,7 +13,7 @@ Machine Learning Engineer specializing in CoreML conversions and on-device AI.
 - Local-first, privacy-preserving ML
 
 #### Projects
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) — On-device audio AI for iOS/macOS (1K+ ⭐)
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) — On-device audio AI for iOS/macOS (1.7K+ ⭐)
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — Speech processing with Apple MLX (5K+ ⭐)
 - [mobius](https://github.com/FluidInference/mobius) — Model deployment across xPUs
 
