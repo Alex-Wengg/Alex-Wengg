@@ -1,20 +1,21 @@
-### Hey, I'm Alex 👋
+### Hello, I'm Alex 
 
 Machine Learning Engineer specializing in CoreML conversions and on-device AI.
 
 #### Recent Milestones
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) hit **1,700 stars** — an open-source SDK for on-device audio AI (ASR, diarization, VAD) on Apple platforms.
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) hit **1,700 stars**
 - **200,000+ monthly model downloads** across different CoreML models on [FluidInference](https://huggingface.co/FluidInference)
 - **125+ Twitter followers**
 
 #### What I Do
+- LLM AI integration engineer
 - Converting PyTorch models → CoreML for Apple Neural Engine
 - Real-time audio AI (transcription, speaker diarization)
-- Local-first, privacy-preserving ML
 
-#### Projects
+#### Contributions
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) — On-device audio AI for iOS/macOS (1.7K+ ⭐)
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — Speech processing with Apple MLX (5K+ ⭐)
+- [OpenOats](https://github.com/yazinsai/OpenOats) — Intelligent meeting assistant with local transcription (1.4K+ ⭐)
 - [mobius](https://github.com/FluidInference/mobius) — Model deployment across xPUs
 
 
