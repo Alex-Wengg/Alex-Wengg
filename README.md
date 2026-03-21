@@ -1,6 +1,6 @@
 ### Hello, I'm Alex 
 
-Machine Learning Engineer specializing in CoreML conversions and on-device AI.
+Machine Learning Engineer specializing in finetuning and on-device AI.
 
 #### Recent Milestones
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) hit **1,700 stars**
