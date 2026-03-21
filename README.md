@@ -9,8 +9,8 @@ Machine Learning Engineer specializing in finetuning and on-device AI.
 
 #### What I Do
 - LLM AI integration engineer
-- Converting PyTorch models → CoreML for Apple Neural Engine
-- Real-time audio AI (transcription, speaker diarization)
+- Finetuning PyTorch models → CoreML for Apple Neural Engine
+- Real-time audio AI (transcription, speaker diarization, etc)
 
 #### Contributions
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) — On-device audio AI for iOS/macOS (1.7K+ ⭐)
