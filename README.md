@@ -3,7 +3,7 @@
 Machine Learning Engineer specializing in finetuning and on-device AI.
 
 #### Recent Milestones
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) hit **1,700 stars**
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) hit **1,700 stars** , supporting dozens of commerical [applications](https://github.com/FluidInference/FluidAudio/?tab=readme-ov-file#fluidaudio---transcription-text-to-speech-vad-speaker-diarization-with-coreml-models)
 - **200,000+ monthly model downloads** across different CoreML models on [FluidInference](https://huggingface.co/FluidInference)
 - **125+ Twitter followers**
 
