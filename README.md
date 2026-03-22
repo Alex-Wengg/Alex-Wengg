@@ -7,22 +7,6 @@ Machine Learning Engineer specializing in finetuning and on-device AI.
 - **200,000+ monthly model downloads** across different CoreML models on [FluidInference](https://huggingface.co/FluidInference)
 - **125+ Twitter followers**
 
-#### Tech Stack
-
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![CoreML](https://img.shields.io/badge/CoreML-000000?style=for-the-badge&logo=apple&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
-**ML/AI:** PyTorch · CoreML · MLX · ONNX · Transformers
-**Languages:** Swift · Python · Rust · C++
-**Audio:** Whisper · Silero VAD · Pyannote · FFmpeg
-**Platforms:** Apple Neural Engine · Metal · CUDA
-
 #### What I Do
 - LLM AI integration engineer
 - Finetuning PyTorch models → CoreML for Apple Neural Engine & more
@@ -39,3 +23,9 @@ Machine Learning Engineer specializing in finetuning and on-device AI.
 
 #### Find me
 [Resume](https://docs.google.com/presentation/d/1gTn48psTT_075OcYbSevkQwSSRC2b6ogUWI48x_UQ9M) · [Twitter](https://twitter.com/Alex_tra_memory) · [LinkedIn](https://www.linkedin.com/in/alexwengg) · [HuggingFace](https://huggingface.co/FluidInference)
+
+---
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=swift,python,rust,cpp,pytorch,tensorflow,apple,git,github,docker" />
+</p>
