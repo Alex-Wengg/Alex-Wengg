@@ -40,3 +40,6 @@ Machine Learning Engineer specializing in finetuning and on-device AI.
 ![TTS](https://img.shields.io/badge/TTS-9B59B6?style=for-the-badge&logoColor=white)
 ![VAD](https://img.shields.io/badge/VAD-E74C3C?style=for-the-badge&logoColor=white)
 ![NeMo](https://img.shields.io/badge/NeMo-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM-FF6B6B?style=for-the-badge&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=for-the-badge&logoColor=white)
