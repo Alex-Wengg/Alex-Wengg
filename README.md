@@ -17,7 +17,7 @@ Machine Learning Engineer specializing in finetuning and on-device AI.
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — Speech processing with Apple MLX (6.3K+ ⭐)
 - [OpenOats](https://github.com/yazinsai/OpenOats) — Intelligent meeting assistant with local transcription (1.4K+ ⭐)
 - [mobius](https://github.com/FluidInference/mobius) — Model deployment across xPUs (supporting over 200,000 monthly model downloads)
-- [text-processing-rs](https://github.com/FluidInference/text-processing-rs) - rust alternative of [NeMo-text-processing](https://github.com/NVIDIA/NeMo-text-processing) for ASR & TTS normalization
+- [text-processing-rs](https://github.com/FluidInference/text-processing-rs) - Rust alternative of [NeMo-text-processing](https://github.com/NVIDIA/NeMo-text-processing) for ASR & TTS normalization
 - [jobpulse](https://jobpulse.fyi/) - AI powered job search site for beginners (peaked 10,000 monthly users)
 
 
