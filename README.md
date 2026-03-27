@@ -13,9 +13,9 @@ Machine Learning Engineer specializing in finetuning and on-device AI.
 - Real-time audio AI (transcription, speaker diarization, TTS, VAD, etc)
 
 #### Contributions
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) - On-device audio AI for iOS/macOS (1.7K+ ⭐)
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) - On-device audio AI for iOS/macOS (1.8K+ ⭐)
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) - Speech processing with Apple MLX (6.3K+ ⭐)
-- [OpenOats](https://github.com/yazinsai/OpenOats) - Intelligent meeting assistant with local transcription (1.4K+ ⭐)
+- [OpenOats](https://github.com/yazinsai/OpenOats) - Intelligent meeting assistant with local transcription (1.9K+ ⭐)
 - [mobius](https://github.com/FluidInference/mobius) - Model deployment across xPUs (supporting over 200,000 monthly model downloads)
 - [text-processing-rs](https://github.com/FluidInference/text-processing-rs) - Rust alternative of [NeMo-text-processing](https://github.com/NVIDIA/NeMo-text-processing) for ASR & TTS normalization
 - [jobpulse](https://jobpulse.fyi/) - AI powered job search site for beginners (peaked 10,000 monthly users)
