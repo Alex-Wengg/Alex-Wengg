@@ -3,7 +3,7 @@
 Machine Learning Engineer specializing in finetuning and on-device AI.
 
 #### Recent Milestones
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) hit **1,700 stars** , supporting dozens of commerical [applications](https://github.com/FluidInference/FluidAudio/?tab=readme-ov-file#fluidaudio---transcription-text-to-speech-vad-speaker-diarization-with-coreml-models)
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) hit **1,800 stars** , supporting dozens of commerical [applications](https://github.com/FluidInference/FluidAudio/?tab=readme-ov-file#fluidaudio---transcription-text-to-speech-vad-speaker-diarization-with-coreml-models)
 - **200,000+ monthly model downloads** across different CoreML models on [FluidInference](https://huggingface.co/FluidInference)
 - **125+ Twitter followers**
 
@@ -14,9 +14,9 @@ Machine Learning Engineer specializing in finetuning and on-device AI.
 
 #### Contributions
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) - On-device audio AI for iOS/macOS (1.8K+ ⭐)
-- [mlx-audio](https://github.com/Blaizzy/mlx-audio) - Speech processing with Apple MLX (6.3K+ ⭐)
-- [OpenOats](https://github.com/yazinsai/OpenOats) - Intelligent meeting assistant with local transcription (1.9K+ ⭐)
-- [mobius](https://github.com/FluidInference/mobius) - Model deployment across xPUs (supporting over 200,000 monthly model downloads)
+- [mlx-audio](https://github.com/Blaizzy/mlx-audio) - Speech processing with Apple MLX (6.5K+ ⭐)
+- [OpenOats](https://github.com/yazinsai/OpenOats) - Intelligent meeting assistant with local transcription (2.1K+ ⭐)
+- [mobius](https://github.com/FluidInference/mobius) - Model deployment across xPUs (supporting over 245,000 monthly model downloads)
 - [text-processing-rs](https://github.com/FluidInference/text-processing-rs) - Rust alternative of [NeMo-text-processing](https://github.com/NVIDIA/NeMo-text-processing) for ASR & TTS normalization
 - [jobpulse](https://jobpulse.fyi/) - AI powered job search site for beginners (peaked 10,000 monthly users)
 
