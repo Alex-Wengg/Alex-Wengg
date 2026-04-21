@@ -4,7 +4,8 @@ Machine Learning Engineer specializing in finetuning and on-device AI.
 
 #### Recent Milestones
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) hit **1,800 stars** , supporting dozens of commerical [applications](https://github.com/FluidInference/FluidAudio/?tab=readme-ov-file#fluidaudio---transcription-text-to-speech-vad-speaker-diarization-with-coreml-models)
-- **200,000+ monthly model downloads** across different CoreML models on [FluidInference](https://huggingface.co/FluidInference)
+- **500,000+ monthly model downloads** across different CoreML models on [FluidInference](https://huggingface.co/FluidInference)
+- Achieve 1,000,000 Total downloads for our [Parakeet TDT V3 Coreml](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml/settings)
 - **125+ Twitter followers**
 
 #### What I Do
