@@ -27,7 +27,6 @@ I build fast, private AI that runs on your device. My work spans speech models o
 - [mlx-mdx](https://github.com/FluidInference/mlx-mdx) — local document-to-Markdown conversion with MLX
 
 **Apps and open-source collaborations**
-- [swift-scribe](https://github.com/FluidInference/swift-scribe) — local dictation and summarization for Apple devices
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — speech processing with Apple MLX
 - [OpenOats](https://github.com/yazinsai/OpenOats) — local meeting transcription
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — [merged fixes](https://github.com/vllm-project/semantic-router/pulls?q=is%3Apr+author%3AAlex-Wengg+is%3Amerged) for RAG result ranking and Playground feedback
