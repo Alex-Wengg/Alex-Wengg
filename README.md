@@ -6,7 +6,7 @@ Software and machine learning engineer building agentic systems and on-device AI
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
 - **500,000+ monthly model downloads** across different Core ML models on [FluidInference](https://huggingface.co/FluidInference)
 - Achieved **1,000,000 total downloads** and peaked at **500,000 monthly downloads** for [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml)
-- **125+ Twitter followers**
+- **400+ Twitter followers**
 
 #### What I Do
 - LLM AI integration engineer
