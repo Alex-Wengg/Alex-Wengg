@@ -1,26 +1,38 @@
-### Hello, I'm Alex 
+### Hello, I'm Alex
 
-Machine Learning Engineer specializing in finetuning and on-device AI.
+I build fast, private AI that runs on your device. My work spans speech models on the Apple Neural Engine, browser inference with WebGPU, and small models that can act in Mac apps.
 
-#### Recent Milestones
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) supports dozens of commerical [applications](https://github.com/FluidInference/FluidAudio/?tab=readme-ov-file#fluidaudio---transcription-text-to-speech-vad-speaker-diarization-with-coreml-models)
-- **500,000+ monthly model downloads** across different CoreML models on [FluidInference](https://huggingface.co/FluidInference)
-- Achieved 1,000,000 Total downloads & peaked 500,000 monthly downloads for [Parakeet TDT V3 Coreml](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml/settings)
-- **125+ Twitter followers**
+#### Recent work
+- Built [FluidAudio](https://github.com/FluidInference/FluidAudio), a Swift SDK for local transcription, text-to-speech, voice activity detection, and speaker diarization, now used by [many apps](https://github.com/FluidInference/FluidAudio#showcase).
+- Brought local speech AI to the browser with [FluidAudio Web](https://github.com/FluidInference/fluidaudio-web): hand-written WebGPU and WASM kernels for ASR, TTS, VAD, and diarization. Its [documented Parakeet benchmark](https://github.com/FluidInference/fluidaudio-web#fluidaudio-web) transcribes one hour of audio in about 12 seconds in Chrome on macOS.
+- Released [FluidUse](https://github.com/FluidInference/FluidUse), which uses a small Core ML model and the macOS Accessibility API to fill forms in running apps entirely on-device.
+- My [Core ML models](https://huggingface.co/FluidInference) previously reached **500,000+ downloads in a month** across the collection; [Parakeet TDT v3](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml) passed **1 million total downloads** and peaked at **500,000 in a month**.
 
 #### What I Do
-- LLM AI integration engineer
-- Finetuning PyTorch models → CoreML for Apple Neural Engine & more
-- Real-time audio AI (transcription, speaker diarization, TTS, VAD, etc)
+- Convert and optimize PyTorch models for Core ML and the Apple Neural Engine
+- Build real-time speech systems for transcription, speaker diarization, TTS, and VAD
+- Develop local inference tools across Apple silicon, WebGPU, and other accelerators
 
 #### Contributions
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) - On-device audio AI for iOS/macOS (2K+ ⭐)
-- [mlx-audio](https://github.com/Blaizzy/mlx-audio) - Speech processing with Apple MLX (7K+ ⭐)
-- [OpenOats](https://github.com/yazinsai/OpenOats) - Intelligent meeting assistant with local transcription (2.5K+ ⭐)
-- [mobius](https://github.com/FluidInference/mobius) - Model deployment across xPUs (supporting over 500,000 monthly model downloads)
-- [text-processing-rs](https://github.com/FluidInference/text-processing-rs) - Rust alternative of [NeMo-text-processing](https://github.com/NVIDIA/NeMo-text-processing) for ASR & TTS normalization
-- [jobpulse](https://jobpulse.fyi/) - AI powered job search site for beginners (peaked 10,000 monthly users)
-- [supertonic](https://github.com/supertone-inc/supertonic) - converted Supertonic's multi lingual TTS for iOS support
+
+**On-device AI and developer tools**
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS
+- [FluidAudio Web](https://github.com/FluidInference/fluidaudio-web) — local speech AI in the browser with WebGPU and WebAssembly
+- [FluidUse](https://github.com/FluidInference/FluidUse) — on-device computer use for Mac apps
+- [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
+- [text-processing-rs](https://github.com/FluidInference/text-processing-rs) — Rust text normalization for ASR and TTS
+- [fluidaudio-rs](https://github.com/FluidInference/fluidaudio-rs) and [react-native-fluidaudio](https://github.com/FluidInference/react-native-fluidaudio) — Rust and React Native integrations for FluidAudio
+- [FluidVad](https://github.com/FluidInference/FluidVad) — lightweight voice activity detection for Electron apps
+- [fluidtop](https://github.com/FluidInference/fluidtop) — macOS performance monitoring for AI workloads
+- [mlx-mdx](https://github.com/FluidInference/mlx-mdx) — local document-to-Markdown conversion with MLX
+
+**Apps and open-source collaborations**
+- [swift-scribe](https://github.com/FluidInference/swift-scribe) — local dictation and summarization for Apple devices
+- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — speech processing with Apple MLX
+- [OpenOats](https://github.com/yazinsai/OpenOats) — local meeting transcription
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — [merged fixes](https://github.com/vllm-project/semantic-router/pulls?q=is%3Apr+author%3AAlex-Wengg+is%3Amerged) for RAG result ranking and Playground feedback
+- [Supertonic](https://github.com/supertone-inc/supertonic) — multilingual TTS support on iOS
+- [Jobpulse](https://jobpulse.fyi/) — AI-powered job search for beginners
 
 
 #### Find me
