@@ -1,18 +1,17 @@
 ### Hello, I'm Alex
 
-I build fast, private AI that runs on your device. My work spans speech models on the Apple Neural Engine and small models that can act in Mac apps.
+Machine Learning Engineer specializing in finetuning and on-device AI.
 
-#### Recent work
-- Built [FluidAudio](https://github.com/FluidInference/FluidAudio), a Swift SDK for local transcription, text-to-speech, voice activity detection, and speaker diarization, now used by [dozens of apps](https://github.com/FluidInference/FluidAudio#showcase).
-- Released [FluidUse](https://github.com/FluidInference/FluidUse), which uses a small Core ML model and the macOS Accessibility API to fill forms in running apps entirely on-device.
-- My [Core ML models](https://huggingface.co/FluidInference) previously reached **500,000+ downloads in a month** across the collection; [Parakeet TDT v3](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml) passed **1 million total downloads** and peaked at **500,000 in a month**.
-- Built [Jobpulse](https://jobpulse.fyi/), an AI-powered job search site for beginners that peaked at **10,000 monthly users**.
-- Reached **125+ followers** on [X](https://twitter.com/Alex_tra_memory).
+#### Recent Milestones
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
+- **500,000+ monthly model downloads** across different Core ML models on [FluidInference](https://huggingface.co/FluidInference)
+- Achieved **1,000,000 total downloads** and peaked at **500,000 monthly downloads** for [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml)
+- **125+ Twitter followers**
 
 #### What I Do
-- Fine-tune, convert, and optimize PyTorch models for Core ML and the Apple Neural Engine
-- Build real-time speech systems for transcription, speaker diarization, TTS, and VAD
-- Develop local inference tools and LLM integrations across Apple silicon and other accelerators
+- LLM AI integration engineer
+- Finetuning PyTorch models → Core ML for Apple Neural Engine & more
+- Real-time audio AI (transcription, speaker diarization, TTS, VAD, etc)
 
 #### Contributions
 
@@ -27,6 +26,7 @@ I build fast, private AI that runs on your device. My work spans speech models o
 - [OpenOats](https://github.com/yazinsai/OpenOats) — local meeting transcription (**2.5K+ ⭐**)
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — [merged fixes](https://github.com/vllm-project/semantic-router/pulls?q=is%3Apr+author%3AAlex-Wengg+is%3Amerged) for RAG result ranking and Playground feedback
 - [Supertonic](https://github.com/supertone-inc/supertonic) — multilingual TTS support on iOS
+- [Jobpulse](https://jobpulse.fyi/) — AI-powered job search site for beginners (peaked at **10,000 monthly users**)
 
 
 #### Find me
