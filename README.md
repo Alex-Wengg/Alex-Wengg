@@ -1,6 +1,6 @@
 ### Hello, I'm Alex
 
-Machine Learning Engineer specializing in finetuning and on-device AI.
+Software and machine learning engineer building agentic systems and on-device AI.
 
 #### Recent Milestones
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
