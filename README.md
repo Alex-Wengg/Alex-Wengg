@@ -23,10 +23,6 @@ I build fast, private AI that runs on your device. My work spans speech models o
 - [FluidUse](https://github.com/FluidInference/FluidUse) — on-device computer use for Mac apps (**100+ ⭐**)
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
 - [text-processing-rs](https://github.com/FluidInference/text-processing-rs) — Rust text normalization for ASR and TTS
-- [fluidaudio-rs](https://github.com/FluidInference/fluidaudio-rs) and [react-native-fluidaudio](https://github.com/FluidInference/react-native-fluidaudio) — Rust and React Native integrations for FluidAudio
-- [FluidVad](https://github.com/FluidInference/FluidVad) — lightweight voice activity detection for Electron apps
-- [fluidtop](https://github.com/FluidInference/fluidtop) — macOS performance monitoring for AI workloads
-- [mlx-mdx](https://github.com/FluidInference/mlx-mdx) — local document-to-Markdown conversion with MLX
 
 **Apps and open-source collaborations**
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — speech processing with Apple MLX (**7.9K+ ⭐**)
