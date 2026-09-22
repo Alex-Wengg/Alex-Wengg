@@ -23,7 +23,8 @@ Machine Learning Engineer specializing in finetuning and on-device AI.
 **Apps and open-source collaborations**
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — speech processing with Apple MLX (**7.9K+ ⭐**)
 - [OpenOats](https://github.com/yazinsai/OpenOats) — local meeting transcription (**2.5K+ ⭐**)
-- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — [merged fixes](https://github.com/vllm-project/semantic-router/pulls?q=is%3Apr+author%3AAlex-Wengg+is%3Amerged) for RAG result ranking and Playground feedback
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — [merged fixes](https://github.com/vllm-project/semantic-router/pulls?q=is%3Apr+author%3AAlex-Wengg+is%3Amerged) for RAG result ranking and Playground feedback (**5.8K+ ⭐**)
+- [IREE](https://github.com/iree-org/iree) — compiler codegen and global optimization contributions (**3.9K+ ⭐**)
 - [Supertonic](https://github.com/supertone-inc/supertonic) — multilingual TTS support on iOS
 - [Jobpulse](https://jobpulse.fyi/) — AI-powered job search site for beginners (peaked at **10,000 monthly users**)
 
