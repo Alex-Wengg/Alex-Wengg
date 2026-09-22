@@ -17,7 +17,6 @@ Machine Learning Engineer specializing in finetuning and on-device AI.
 
 **On-device AI and developer tools**
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**2.8K+ ⭐**)
-- [FluidUse](https://github.com/FluidInference/FluidUse) — on-device computer use for Mac apps (**100+ ⭐**)
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
 - [text-processing-rs](https://github.com/FluidInference/text-processing-rs) — Rust text normalization for ASR and TTS
 
