@@ -23,7 +23,7 @@ Software and machine learning engineer building agentic systems and on-device AI
 **Apps and open-source collaborations**
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX (**7.9K+ ⭐**)
 - [OpenOats](https://github.com/yazinsai/OpenOats) — contributed its horizontal wordmark for marketing materials (**2.5K+ ⭐**)
-- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — fixed external RAG result ranking across query windows and secured Playground feedback for read users (**5.8K+ ⭐**)
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — fixed external RAG result ranking across query windows, secured Playground feedback for read users, and hardened Dashboard API authorization with mutation-boundary rechecks (**6K+ ⭐**)
 - [IREE](https://github.com/iree-org/iree) — fixed a global optimization crash and moved compiler passes into the main codegen tree (**3.9K+ ⭐**)
 - [Supertonic](https://github.com/supertone-inc/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (**13.7K+ ⭐**)
 - [Jobpulse](https://jobpulse.fyi/) — built an AI-powered job search site for beginners that peaked at **10,000 monthly users**
