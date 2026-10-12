@@ -3,6 +3,8 @@
 Software and machine learning engineer building agentic systems and on-device AI.
 
 #### Recent Milestones
+- Joined two [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) workgroups: **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
+- Early access to vLLM-SR's [Decision 3.0](https://huggingface.co/collections/vllm-sr/decision-30): ported d3 to Core ML ([d3-coreml](https://huggingface.co/FluidInference/d3-coreml)) and wrote [Decision 3.0 on Apple Silicon](https://vllm-sr.ai/blog/decision-3-0-on-apple-silicon) for the vLLM-SR blog
 - [Fluid Inference](https://github.com/FluidInference) was **acquired by Levenza**
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
 - **500,000+ monthly model downloads** across different Core ML models on [FluidInference](https://huggingface.co/FluidInference)
@@ -18,13 +20,14 @@ Software and machine learning engineer building agentic systems and on-device AI
 
 **On-device AI and developer tools**
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**2.8K+ ⭐**)
+- [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
 - [text-processing-rs](https://github.com/FluidInference/text-processing-rs) — Rust text normalization for ASR and TTS
 
 **Apps and open-source collaborations**
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX (**7.9K+ ⭐**)
 - [OpenOats](https://github.com/yazinsai/OpenOats) — contributed its horizontal wordmark for marketing materials (**2.5K+ ⭐**)
-- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — fixed external RAG result ranking across query windows, secured Playground feedback for read users, and hardened Dashboard API authorization with mutation-boundary rechecks (**6K+ ⭐**)
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — workgroup member; wrote the [Decision 3.0 on Apple Silicon](https://vllm-sr.ai/blog/decision-3-0-on-apple-silicon) blog post (d3-lite, nano and mini on Core ML, matching upstream on JevBench and typed-decisions, 2.5–4× faster per request on a Mac); fixed external RAG result ranking across query windows, secured Playground feedback for read users, and hardened Dashboard API authorization with mutation-boundary rechecks (**6K+ ⭐**)
 - [vLLM Production Stack](https://github.com/vllm-project/production-stack) — fixed router static service discovery to reject mismatched model list configs at startup instead of failing at request time (**2.6K+ ⭐**)
 - [IREE](https://github.com/iree-org/iree) — fixed a global optimization crash and moved compiler passes into the main codegen tree (**3.9K+ ⭐**)
 - [Supertonic](https://github.com/supertone-inc/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (**13.7K+ ⭐**)
