@@ -1,6 +1,6 @@
 ### Hello, I'm Alex
 
-Software and machine learning engineer building agentic systems and on-device AI.
+AI and machine learning engineer building agentic systems and on-device AI.
 
 #### Recent Milestones
 - Joined two [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) workgroups: **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
@@ -12,13 +12,13 @@ Software and machine learning engineer building agentic systems and on-device AI
 - **1,000+ Twitter [followers](https://x.com/Alex_tra_memory)**
 
 #### What I Do
-- LLM AI integration engineer
-- Finetuning PyTorch models → Core ML for Apple Neural Engine & more
+- AI Reseacher
+- Finetuning PyTorch models to faster frameworks
 - Real-time audio AI (transcription, speaker diarization, TTS, VAD, etc)
 
 #### Contributions
 
-**On-device AI and developer tools**
+**Local AI Research**
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**2.8K+ ⭐**)
 - [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
