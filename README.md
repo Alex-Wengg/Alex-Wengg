@@ -18,13 +18,13 @@ AI and machine learning engineer building agentic systems and on-device AI.
 
 #### Contributions
 
-**Local AI Research**
+**AI Research**
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**2.8K+ ⭐**)
 - [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
 - [text-processing-rs](https://github.com/FluidInference/text-processing-rs) — Rust text normalization for ASR and TTS
 
-**Core ML ports for Apple silicon** (Swift runtimes in [FluidUse](https://github.com/FluidInference/FluidUse))
+**Some Experiment Highlights ** (Swift runtimes in [FluidUse](https://github.com/FluidInference/FluidUse))
 - [Decision 3.0](https://huggingface.co/FluidInference/d3-coreml) — d3-lite, nano and mini on Core ML; d3-lite triages 1,000 pull requests into vLLM-SR workgroups live on an M5 Pro at 0.12 s per PR, 8.3 PRs/s ([demo](https://x.com/Alex_tra_memory/status/2109343807854493724))
 - [clef-text-0.6B](https://huggingface.co/FluidInference/clef-text-0.6b-coreml) — distilled Cloudflare's 9B clef-flash into a 0.6B decision model that runs 100% on the Apple Neural Engine; 1,000 support tickets triaged in 57 s on an M5 Pro, 48 ms per ticket, within a few points of the 9B on classification ([demo](https://x.com/Alex_tra_memory/status/2108959518386458695))
 - [EmbeddingGemma 2](https://huggingface.co/FluidInference/embeddinggemma-2-coreml) — text encoder 100% on the Apple Neural Engine; sorts 10,080 posts into topics live at ~620/s on a MacBook, any topic splits into subtopics in under a second ([demo](https://x.com/Alex_tra_memory/status/2108391275560931355))
