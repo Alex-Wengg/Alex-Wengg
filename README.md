@@ -3,13 +3,13 @@
 AI and machine learning engineer building agentic systems and on-device AI.
 
 #### Recent Milestones
-- Joined two [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) workgroups: **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
+- Joined two vLLM Semantic Router [workgroups](https://vllm-sr.ai/community/work-groups): **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
 - Early access to vLLM-SR's [Decision 3.0](https://huggingface.co/collections/vllm-sr/decision-30): ported d3 to Core ML ([d3-coreml](https://huggingface.co/FluidInference/d3-coreml)) and wrote [Decision 3.0 on Apple Silicon](https://vllm-sr.ai/blog/decision-3-0-on-apple-silicon) for the vLLM-SR blog
 - [Fluid Inference](https://github.com/FluidInference) was **acquired by Levenza**
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
 - **500,000+ monthly model downloads** across different Core ML models on [FluidInference](https://huggingface.co/FluidInference)
 - Achieved over **2,000,000 total downloads** and peaked **500,000 monthly downloads** for [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml)
-- **1,000+ Twitter [followers](https://x.com/Alex_tra_memory) in [1 month](https://x.com/Alex_tra_memory/status/2111887700282466530?s=20) thanks to [FluidUse](https://github.com/FluidInference/FluidUse)**
+- **1,000+ Twitter [followers](https://x.com/Alex_tra_memory) in [1 month](https://x.com/Alex_tra_memory/status/2111887700282466530?s=20) thanks to [FluidUse](https://github.com/FluidInference/FluidUse) distilled & finetuned models **
 
 #### What I Do
 - AI Reseacher
