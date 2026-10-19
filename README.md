@@ -24,6 +24,13 @@ AI and machine learning engineer building agentic systems and on-device AI.
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
 - [text-processing-rs](https://github.com/FluidInference/text-processing-rs) — Rust text normalization for ASR and TTS
 
+**Core ML ports for Apple silicon** (Swift runtimes in [FluidUse](https://github.com/FluidInference/FluidUse))
+- [Decision 3.0](https://huggingface.co/FluidInference/d3-coreml) — d3-lite, nano and mini on Core ML; d3-lite triages 1,000 pull requests into vLLM-SR workgroups live on an M5 Pro at 0.12 s per PR, 8.3 PRs/s ([demo](https://x.com/Alex_tra_memory/status/2109343807854493724))
+- [clef-text-0.6B](https://huggingface.co/FluidInference/clef-text-0.6b-coreml) — distilled Cloudflare's 9B clef-flash into a 0.6B decision model that runs 100% on the Apple Neural Engine; 1,000 support tickets triaged in 57 s on an M5 Pro, 48 ms per ticket, within a few points of the 9B on classification ([demo](https://x.com/Alex_tra_memory/status/2108959518386458695))
+- [EmbeddingGemma 2](https://huggingface.co/FluidInference/embeddinggemma-2-coreml) — text encoder 100% on the Apple Neural Engine; sorts 10,080 posts into topics live at ~620/s on a MacBook, any topic splits into subtopics in under a second ([demo](https://x.com/Alex_tra_memory/status/2108391275560931355))
+- [GLiNER2.5-Decide](https://huggingface.co/FluidInference/gliner2-5-decide-coreml) — Fastino's 340M decision model on Core ML: ~4× faster, ~5× less peak RAM, half the size ([demo](https://x.com/Alex_tra_memory/status/2103558426618163708))
+- [laya](https://huggingface.co/FluidInference/laya-coreml) — Convai's typed decision model with 99.5% of ops on the Apple Neural Engine, 3.7 ms per decision on an M5 Pro ([demo](https://x.com/Alex_tra_memory/status/2102161088598970783))
+
 **Apps and open-source collaborations**
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests (**37K+ ⭐**)
 - [Supertonic](https://github.com/supertone-inc/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (**13.7K+ ⭐**)
