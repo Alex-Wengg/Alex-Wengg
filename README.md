@@ -8,7 +8,7 @@ AI and machine learning engineer building agentic systems and on-device AI.
 - [Fluid Inference](https://github.com/FluidInference) was **acquired by Levenza**
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
 - **500,000+ monthly model downloads** across different Core ML models on [FluidInference](https://huggingface.co/FluidInference)
-- Achieved over **2,000,000 total downloads** and peaked at **500,000 monthly downloads** for [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml)
+- Achieved over **2,000,000 total downloads** and peaked **500,000 monthly downloads** for [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml)
 - **1,000+ Twitter [followers](https://x.com/Alex_tra_memory) in [1 month](https://x.com/Alex_tra_memory/status/2111887700282466530?s=20) thanks to [FluidUse](https://github.com/FluidInference/FluidUse)**
 
 #### What I Do
