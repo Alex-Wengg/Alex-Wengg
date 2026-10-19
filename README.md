@@ -14,6 +14,7 @@ AI and machine learning engineer building agentic systems and on-device AI.
 #### What I Do
 - AI Reseacher
 - Finetuning PyTorch models to faster frameworks
+- Distilled decision models for inference or games like mario
 - Real-time audio AI (transcription, speaker diarization, TTS, VAD, etc)
 
 #### Contributions
