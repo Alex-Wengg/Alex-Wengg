@@ -35,6 +35,7 @@ AI and machine learning engineer building agentic systems and on-device AI.
 **Apps and open-source collaborations**
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests (**37K+ ⭐**)
 - [Supertonic](https://github.com/supertone-inc/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (**13.7K+ ⭐**)
+- [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — made the disaggregated-serving prefill router [fail closed](https://github.com/ai-dynamo/dynamo/pull/16736) with a retryable 503 while a prefill target is still activating, instead of silently sending requests to decode-only workers (**8.3K+ ⭐**)
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX (**7.9K+ ⭐**)
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — workgroup member; wrote the [Decision 3.0 on Apple Silicon](https://vllm-sr.ai/blog/decision-3-0-on-apple-silicon) blog post (d3-lite, nano and mini on Core ML, matching upstream on JevBench and typed-decisions, 2.5–4× faster per request on a Mac); fixed external RAG result ranking across query windows, secured Playground feedback for read users, and hardened Dashboard API authorization with mutation-boundary rechecks (**6K+ ⭐**)
 - [IREE](https://github.com/iree-org/iree) — fixed a global optimization crash and moved compiler passes into the main codegen tree (**3.9K+ ⭐**)
