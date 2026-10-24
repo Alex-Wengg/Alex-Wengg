@@ -28,8 +28,8 @@ AI and machine learning engineer building agentic systems and on-device AI.
 **Some Experiment Highlights** (Swift runtimes in [FluidUse](https://github.com/FluidInference/FluidUse))
 - [Decision 3.0](https://huggingface.co/FluidInference/d3-coreml) — d3-lite, nano and mini on Core ML; d3-lite triages 1,000 pull requests into vLLM-SR workgroups live on an M5 Pro at 0.12 s per PR, 8.3 PRs/s ([demo](https://x.com/Alex_tra_memory/status/2109343807854493724))
 
+<img width="455" height="570" alt="image" src="https://github.com/user-attachments/assets/c56da3f8-ad48-49bc-9b1a-81a64b4219f3" />
 
-<img width="515" height="640" alt="image" src="https://github.com/user-attachments/assets/87871771-69e8-4666-8da9-09469a9eb133" />
 https://x.com/ClementDelangue
 
 - [clef-text-0.6B](https://huggingface.co/FluidInference/clef-text-0.6b-coreml) — distilled Cloudflare's 9B clef-flash into a 0.6B decision model that runs 100% on the Apple Neural Engine; 1,000 support tickets triaged in 57 s on an M5 Pro, 48 ms per ticket, within a few points of the 9B on classification ([demo](https://x.com/Alex_tra_memory/status/2108959518386458695))
