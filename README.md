@@ -29,14 +29,28 @@ AI and machine learning engineer building agentic systems and on-device AI.
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
 
 **Some Experiment Highlights** (Swift runtimes in [FluidUse](https://github.com/FluidInference/FluidUse))
-- [Decision 3.0](https://huggingface.co/FluidInference/d3-coreml) — d3-lite, nano and mini on Core ML; d3-lite triages 1,000 pull requests into vLLM-SR workgroups live on an M5 Pro at 0.12 s per PR, 8.3 PRs/s ([demo](https://x.com/Alex_tra_memory/status/2109343807854493724))
+- [laya](https://huggingface.co/FluidInference/laya-coreml) — Convai's typed decision model with 99.5% of ops on the Apple Neural Engine, 3.7 ms per decision on an M5 Pro ([demo](https://x.com/Alex_tra_memory/status/2102161088598970783))
 
 <table>
   <tr>
-    <td align="center" valign="top"><a href="https://x.com/ClementDelangue">@ClementDelangue</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/c56da3f8-ad48-49bc-9b1a-81a64b4219f3" /></td>
-    <td align="center" valign="top"><a href="https://x.com/victormustar">@victormustar</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/7f8e330a-e2ac-4918-a135-5c60fb822ce9" /></td>
+    <td align="center" valign="top"><a href="https://x.com/jackzampolin/status/2102441521048080627?s=20">@jackzampolin</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/41622204-29e3-4eb7-9ebd-b1dd5bc76780" /></td>
+    <td align="center" valign="top"><a href="https://x.com/JiliJeanlouis">@JiliJeanlouis</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/7015727f-aca7-4d3c-820d-5ad907cab993" /></td>
+    <td align="center" valign="top"><a href="https://x.com/ClementDelangue/reposts">@ClementDelangue reposts</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/5a1038f2-a405-4f04-9080-54ec8f36a1cb" /></td>
+    <td align="center" valign="top"><a href="https://x.com/victormustar">@victormustar</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/0f93e41e-9dc7-4587-88a9-bb9a494f71f3" /></td>
   </tr>
 </table>
+
+- [GLiNER2.5-Decide](https://huggingface.co/FluidInference/gliner2-5-decide-coreml) — Fastino's 340M decision model on Core ML: ~4× faster, ~5× less peak RAM, half the size ([demo](https://x.com/Alex_tra_memory/status/2103558426618163708))
+
+https://x.com/fastinoAI
+
+<img width="458" height="539" alt="image" src="https://github.com/user-attachments/assets/028204a7-aaa5-405d-8b84-195c22c9b7a9" />
+
+- [EmbeddingGemma 2](https://huggingface.co/FluidInference/embeddinggemma-2-coreml) — text encoder 100% on the Apple Neural Engine; sorts 10,080 posts into topics live at ~620/s on a MacBook, any topic splits into subtopics in under a second ([demo](https://x.com/Alex_tra_memory/status/2108391275560931355))
+
+https://x.com/SeraAndroid/status/2108629662238961694?s=20
+
+<img width="443" height="450" alt="image" src="https://github.com/user-attachments/assets/2c3ad9bd-0bec-47e0-bac9-4d4dd1b45d06" />
 
 - [clef-text-0.6B](https://huggingface.co/FluidInference/clef-text-0.6b-coreml) — distilled Cloudflare's 9B clef-flash into a 0.6B decision model that runs 100% on the Apple Neural Engine; 1,000 support tickets triaged in 57 s on an M5 Pro, 48 ms per ticket, within a few points of the 9B on classification ([demo](https://x.com/Alex_tra_memory/status/2108959518386458695))
 
@@ -47,28 +61,12 @@ AI and machine learning engineer building agentic systems and on-device AI.
   </tr>
 </table>
 
-- [EmbeddingGemma 2](https://huggingface.co/FluidInference/embeddinggemma-2-coreml) — text encoder 100% on the Apple Neural Engine; sorts 10,080 posts into topics live at ~620/s on a MacBook, any topic splits into subtopics in under a second ([demo](https://x.com/Alex_tra_memory/status/2108391275560931355))
-
-https://x.com/SeraAndroid/status/2108629662238961694?s=20
-
-<img width="443" height="450" alt="image" src="https://github.com/user-attachments/assets/2c3ad9bd-0bec-47e0-bac9-4d4dd1b45d06" />
-
-
-- [GLiNER2.5-Decide](https://huggingface.co/FluidInference/gliner2-5-decide-coreml) — Fastino's 340M decision model on Core ML: ~4× faster, ~5× less peak RAM, half the size ([demo](https://x.com/Alex_tra_memory/status/2103558426618163708))
-
-https://x.com/fastinoAI
-
-<img width="458" height="539" alt="image" src="https://github.com/user-attachments/assets/028204a7-aaa5-405d-8b84-195c22c9b7a9" />
-
-
-- [laya](https://huggingface.co/FluidInference/laya-coreml) — Convai's typed decision model with 99.5% of ops on the Apple Neural Engine, 3.7 ms per decision on an M5 Pro ([demo](https://x.com/Alex_tra_memory/status/2102161088598970783))
+- [Decision 3.0](https://huggingface.co/FluidInference/d3-coreml) — d3-lite, nano and mini on Core ML; d3-lite triages 1,000 pull requests into vLLM-SR workgroups live on an M5 Pro at 0.12 s per PR, 8.3 PRs/s ([demo](https://x.com/Alex_tra_memory/status/2109343807854493724))
 
 <table>
   <tr>
-    <td align="center" valign="top"><a href="https://x.com/jackzampolin/status/2102441521048080627?s=20">@jackzampolin</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/41622204-29e3-4eb7-9ebd-b1dd5bc76780" /></td>
-    <td align="center" valign="top"><a href="https://x.com/JiliJeanlouis">@JiliJeanlouis</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/7015727f-aca7-4d3c-820d-5ad907cab993" /></td>
-    <td align="center" valign="top"><a href="https://x.com/ClementDelangue/reposts">@ClementDelangue reposts</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/5a1038f2-a405-4f04-9080-54ec8f36a1cb" /></td>
-    <td align="center" valign="top"><a href="https://x.com/victormustar">@victormustar</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/0f93e41e-9dc7-4587-88a9-bb9a494f71f3" /></td>
+    <td align="center" valign="top"><a href="https://x.com/ClementDelangue">@ClementDelangue</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/c56da3f8-ad48-49bc-9b1a-81a64b4219f3" /></td>
+    <td align="center" valign="top"><a href="https://x.com/victormustar">@victormustar</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/7f8e330a-e2ac-4918-a135-5c60fb822ce9" /></td>
   </tr>
 </table>
 
