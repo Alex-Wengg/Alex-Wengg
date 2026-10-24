@@ -23,10 +23,21 @@ AI and machine learning engineer building agentic systems and on-device AI.
 
 #### Contributions
 
-**AI Work**
+**Projects I work on**
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**2.8K+ ⭐**)
 - [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
+
+**Open-source collaborations and apps**
+- [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests (**37K+ ⭐**)
+- [Supertonic](https://github.com/supertone-inc/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (**13.7K+ ⭐**)
+- [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — made the disaggregated-serving prefill router [fail closed](https://github.com/ai-dynamo/dynamo/pull/16736) with a retryable 503 while a prefill target is still activating, instead of silently sending requests to decode-only workers (**8.3K+ ⭐**)
+- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX (**7.9K+ ⭐**)
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — workgroup member; wrote the [Decision 3.0 on Apple Silicon](https://vllm-sr.ai/blog/decision-3-0-on-apple-silicon) blog post (d3-lite, nano and mini on Core ML, matching upstream on JevBench and typed-decisions, 2.5–4× faster per request on a Mac); fixed external RAG result ranking across query windows, secured Playground feedback for read users, and hardened Dashboard API authorization with mutation-boundary rechecks (**6K+ ⭐**)
+- [IREE](https://github.com/iree-org/iree) — fixed a global optimization crash and moved compiler passes into the main codegen tree (**3.9K+ ⭐**)
+- [vLLM Production Stack](https://github.com/vllm-project/production-stack) — fixed router static service discovery to reject mismatched model list configs at startup instead of failing at request time (**2.6K+ ⭐**)
+- [OpenOats](https://github.com/yazinsai/OpenOats) — contributed its horizontal wordmark for marketing materials (**2.5K+ ⭐**)
+- [Jobpulse](https://jobpulse.fyi/) — built an AI-powered job search site for beginners that peaked at **10,000 monthly users**
 
 **Some Experiment Highlights** (Swift runtimes in [FluidUse](https://github.com/FluidInference/FluidUse))
 - [laya](https://huggingface.co/FluidInference/laya-coreml) — Convai's typed decision model with 99.5% of ops on the Apple Neural Engine, 3.7 ms per decision on an M5 Pro ([demo](https://x.com/Alex_tra_memory/status/2102161088598970783)) · 1,323 likes · 111 reposts · 120K views
@@ -69,17 +80,6 @@ https://x.com/SeraAndroid/status/2108629662238961694?s=20
     <td align="center" valign="top"><a href="https://x.com/victormustar">@victormustar</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/7f8e330a-e2ac-4918-a135-5c60fb822ce9" /></td>
   </tr>
 </table>
-
-**Apps and open-source collaborations**
-- [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests (**37K+ ⭐**)
-- [Supertonic](https://github.com/supertone-inc/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (**13.7K+ ⭐**)
-- [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — made the disaggregated-serving prefill router [fail closed](https://github.com/ai-dynamo/dynamo/pull/16736) with a retryable 503 while a prefill target is still activating, instead of silently sending requests to decode-only workers (**8.3K+ ⭐**)
-- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX (**7.9K+ ⭐**)
-- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — workgroup member; wrote the [Decision 3.0 on Apple Silicon](https://vllm-sr.ai/blog/decision-3-0-on-apple-silicon) blog post (d3-lite, nano and mini on Core ML, matching upstream on JevBench and typed-decisions, 2.5–4× faster per request on a Mac); fixed external RAG result ranking across query windows, secured Playground feedback for read users, and hardened Dashboard API authorization with mutation-boundary rechecks (**6K+ ⭐**)
-- [IREE](https://github.com/iree-org/iree) — fixed a global optimization crash and moved compiler passes into the main codegen tree (**3.9K+ ⭐**)
-- [vLLM Production Stack](https://github.com/vllm-project/production-stack) — fixed router static service discovery to reject mismatched model list configs at startup instead of failing at request time (**2.6K+ ⭐**)
-- [OpenOats](https://github.com/yazinsai/OpenOats) — contributed its horizontal wordmark for marketing materials (**2.5K+ ⭐**)
-- [Jobpulse](https://jobpulse.fyi/) — built an AI-powered job search site for beginners that peaked at **10,000 monthly users**
 
 
 #### Find me
