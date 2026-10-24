@@ -3,11 +3,13 @@
 AI and machine learning engineer building agentic systems and inference engines from client side to server side.
 
 #### What I Do
-- AI Reseacher
+- AI Researcher
 - Finetuning PyTorch models to faster frameworks
 - Distilled decision models for inference or games like mario
 - Real-time audio AI (transcription, speaker diarization, TTS, VAD, etc)
-- Inference Engineering, On-Device ML Engineering, Performance Engineering, Agentic Engineering, ML Engineering
+- Server-side LLM serving: request routing, disaggregated prefill/decode, and diffusion serving in vLLM, SGLang and NVIDIA Dynamo
+- ML compilers (IREE)
+- Inference Engineering, On-Device ML Engineering, Server-Side ML Engineering, Performance Engineering, Agentic Engineering, ML Engineering
 
 #### Contributions
 
