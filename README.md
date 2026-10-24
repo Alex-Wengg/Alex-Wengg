@@ -2,18 +2,6 @@
 
 AI and machine learning engineer building agentic systems and on-device AI.
 
-#### Recent Milestones
-- Joined two vLLM Semantic Router [workgroups](https://vllm-sr.ai/community/work-groups): **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
-- Early access to vLLM-SR's [Decision 3.0](https://huggingface.co/collections/vllm-sr/decision-30): ported d3 to Core ML ([d3-coreml](https://huggingface.co/FluidInference/d3-coreml)) and wrote [Decision 3.0 on Apple Silicon](https://vllm-sr.ai/blog/decision-3-0-on-apple-silicon) for the vLLM-SR blog
-- [Fluid Inference](https://github.com/FluidInference) was **acquired by Levenza**
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
-- **500,000+ monthly model downloads** across different Core ML models on [FluidInference](https://huggingface.co/FluidInference)
-- Achieved over **2,000,000 total downloads** and peaked **500,000 monthly downloads** for [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml)
-- 1,000+ Twitter [followers](https://x.com/Alex_tra_memory) in [1 month](https://x.com/Alex_tra_memory/status/2111887700282466530?s=20) thanks to [FluidUse](https://github.com/FluidInference/FluidUse) distilled & finetuned models 
-
-<img width="900" height="816" alt="image" src="https://github.com/user-attachments/assets/02e74268-c2e9-4936-bf22-2eec2b5e6f48" />
-
-
 #### What I Do
 - AI Reseacher
 - Finetuning PyTorch models to faster frameworks
@@ -23,18 +11,32 @@ AI and machine learning engineer building agentic systems and on-device AI.
 
 #### Contributions
 
-**Projects I work on**
+**Projects I work on** — at [Fluid Inference](https://github.com/FluidInference), which was **acquired by Levenza**
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**2.8K+ ⭐**)
+  - Supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
+  - [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml): over **2,000,000 total downloads**, peaked at **500,000 monthly downloads**
 - [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
+  - Its distilled & finetuned models brought 1,000+ Twitter [followers](https://x.com/Alex_tra_memory) in [1 month](https://x.com/Alex_tra_memory/status/2111887700282466530?s=20)
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
+  - **500,000+ monthly model downloads** across the Core ML models on [FluidInference](https://huggingface.co/FluidInference)
+
+<img width="450" alt="1,001 Twitter followers" src="https://github.com/user-attachments/assets/02e74268-c2e9-4936-bf22-2eec2b5e6f48" />
 
 **Open-source collaborations and apps**
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests (**37K+ ⭐**)
 - [Supertonic](https://github.com/supertone-inc/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (**13.7K+ ⭐**)
 - [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — made the disaggregated-serving prefill router [fail closed](https://github.com/ai-dynamo/dynamo/pull/16736) with a retryable 503 while a prefill target is still activating, instead of silently sending requests to decode-only workers (**8.3K+ ⭐**)
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX (**7.9K+ ⭐**)
-- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) — workgroup member; wrote the [Decision 3.0 on Apple Silicon](https://vllm-sr.ai/blog/decision-3-0-on-apple-silicon) blog post (d3-lite, nano and mini on Core ML, matching upstream on JevBench and typed-decisions, 2.5–4× faster per request on a Mac); fixed external RAG result ranking across query windows, secured Playground feedback for read users, and hardened Dashboard API authorization with mutation-boundary rechecks (**6K+ ⭐**)
-- [IREE](https://github.com/iree-org/iree) — fixed a global optimization crash and moved compiler passes into the main codegen tree (**3.9K+ ⭐**)
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6K+ ⭐**)
+  - Member of two [workgroups](https://vllm-sr.ai/community/work-groups): **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
+  - Early access to [Decision 3.0](https://huggingface.co/collections/vllm-sr/decision-30): ported d3 to Core ML ([d3-coreml](https://huggingface.co/FluidInference/d3-coreml))
+  - Wrote the [Decision 3.0 on Apple Silicon](https://vllm-sr.ai/blog/decision-3-0-on-apple-silicon) blog post: d3-lite, nano and mini on Core ML, matching upstream on JevBench and typed-decisions, 2.5–4× faster per request on a Mac
+  - Fixed external RAG result ranking across query windows
+  - Secured Playground feedback for read users
+  - Hardened Dashboard API authorization with mutation-boundary rechecks
+- [IREE](https://github.com/iree-org/iree) (**3.9K+ ⭐**)
+  - Fixed a global optimization crash
+  - Moved compiler passes into the main codegen tree
 - [vLLM Production Stack](https://github.com/vllm-project/production-stack) — fixed router static service discovery to reject mismatched model list configs at startup instead of failing at request time (**2.6K+ ⭐**)
 - [OpenOats](https://github.com/yazinsai/OpenOats) — contributed its horizontal wordmark for marketing materials (**2.5K+ ⭐**)
 - [Jobpulse](https://jobpulse.fyi/) — built an AI-powered job search site for beginners that peaked at **10,000 monthly users**
