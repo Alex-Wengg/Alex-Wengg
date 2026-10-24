@@ -47,6 +47,11 @@ https://x.com/art_zucker/reposts
 
 <img width="448" height="538" alt="image" src="https://github.com/user-attachments/assets/99e45041-eebe-47ca-ab36-5b586fddf701" />
 
+https://x.com/ClementDelangue/reposts
+
+<img width="445" height="564" alt="image" src="https://github.com/user-attachments/assets/ea4615e7-1522-4eed-8bf2-e7f43bc2d2ba" />
+
+
 
 - [EmbeddingGemma 2](https://huggingface.co/FluidInference/embeddinggemma-2-coreml) — text encoder 100% on the Apple Neural Engine; sorts 10,080 posts into topics live at ~620/s on a MacBook, any topic splits into subtopics in under a second ([demo](https://x.com/Alex_tra_memory/status/2108391275560931355))
 
