@@ -12,7 +12,7 @@ AI and machine learning engineer building agentic systems and on-device AI.
 #### Contributions
 
 **Projects I work on** — at [Fluid Inference](https://github.com/FluidInference), which was **acquired by Levenza**
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**2.8K+ ⭐**)
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**3.2K+ ⭐**)
   - Supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
   - [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml): over **2,000,000 total downloads**, peaked at **500,000 monthly downloads**
 - [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
@@ -23,18 +23,18 @@ AI and machine learning engineer building agentic systems and on-device AI.
 <img width="450" alt="1,001 Twitter followers" src="https://github.com/user-attachments/assets/02e74268-c2e9-4936-bf22-2eec2b5e6f48" />
 
 **Open-source collaborations and apps**
-- [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)) (**37K+ ⭐**)
+- [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)) (**38K+ ⭐**)
 - [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
-- [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — made the disaggregated-serving prefill router fail closed with a retryable 503 while a prefill target is still activating, instead of silently sending requests to decode-only workers ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)) (**8.3K+ ⭐**)
-- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**7.9K+ ⭐**)
-- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6K+ ⭐**)
+- [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — made the disaggregated-serving prefill router fail closed with a retryable 503 while a prefill target is still activating, instead of silently sending requests to decode-only workers ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)) (**8.4K+ ⭐**)
+- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.1K+ ⭐**)
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.3K+ ⭐**)
   - Member of two [workgroups](https://vllm-sr.ai/community/work-groups): **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
   - Early access to [Decision 3.0](https://huggingface.co/collections/vllm-sr/decision-30): ported d3 to Core ML ([d3-coreml](https://huggingface.co/FluidInference/d3-coreml))
   - Wrote the [Decision 3.0 on Apple Silicon](https://vllm-sr.ai/blog/decision-3-0-on-apple-silicon) blog post: d3-lite, nano and mini on Core ML, matching upstream on JevBench and typed-decisions, 2.5–4× faster per request on a Mac ([#4905](https://github.com/vllm-project/semantic-router/pull/4905), [#4975](https://github.com/vllm-project/semantic-router/pull/4975))
   - Fixed external RAG result ranking across query windows ([#3750](https://github.com/vllm-project/semantic-router/pull/3750))
   - Secured Playground feedback for read users ([#3755](https://github.com/vllm-project/semantic-router/pull/3755))
   - Hardened Dashboard API authorization with mutation-boundary rechecks ([a3174df](https://github.com/vllm-project/semantic-router/commit/a3174df365c496cbcc1f01ca6137061556618781))
-- [IREE](https://github.com/iree-org/iree) (**3.9K+ ⭐**)
+- [IREE](https://github.com/iree-org/iree) (**4K+ ⭐**)
   - Fixed a global optimization crash in RaiseSpecialOps ([#24626](https://github.com/iree-org/iree/pull/24626))
   - Moved compiler passes into the main codegen tree and retired the `iree-dialects` directory ([#24501](https://github.com/iree-org/iree/pull/24501), [#24543](https://github.com/iree-org/iree/pull/24543), [#24612](https://github.com/iree-org/iree/pull/24612))
 - [vLLM Production Stack](https://github.com/vllm-project/production-stack) — fixed router static service discovery to reject mismatched model list configs at startup instead of failing at request time ([#1084](https://github.com/vllm-project/production-stack/pull/1084)) (**2.6K+ ⭐**)
