@@ -1,6 +1,6 @@
 ### Hello, I'm Alex
 
-AI and machine learning engineer building agentic systems and on-device AI.
+AI and machine learning engineer building agentic systems and inference engines from client side to server side.
 
 #### What I Do
 - AI Reseacher
