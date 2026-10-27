@@ -41,6 +41,7 @@ AI and machine learning engineer building agentic systems and inference engines 
 - [AgentENV](https://github.com/kvcache-ai/AgentENV) — fixed the ublk storage daemon leaking block devices when a client times out before receiving its device handoff, by rolling back undelivered handoffs ([#431](https://github.com/kvcache-ai/AgentENV/pull/431)) (**3.6K+ ⭐**)
 - [vLLM Production Stack](https://github.com/vllm-project/production-stack) — fixed router static service discovery to reject mismatched model list configs at startup instead of failing at request time ([#1084](https://github.com/vllm-project/production-stack/pull/1084)) (**2.6K+ ⭐**)
 - [OpenOats](https://github.com/yazinsai/OpenOats) — contributed its horizontal wordmark for marketing materials (**2.5K+ ⭐**)
+- [Emmy](https://github.com/cloudrift-ai/emmy) — CloudRift's GPU compiler for LLM inference: made kernel lowering fail loudly instead of silently returning an unwritten output when a fused kernel drops a declared store ([#1257](https://github.com/cloudrift-ai/emmy/pull/1257)); fixing permutes that silently compiled as reshapes is in review ([#1280](https://github.com/cloudrift-ai/emmy/pull/1280)) (**118 ⭐**)
 - [Jobpulse](https://jobpulse.fyi/) — built an AI-powered job search site for beginners that peaked at **10,000 monthly users**
 
 **Some Experiment Highlights** (Swift runtimes in [FluidUse](https://github.com/FluidInference/FluidUse))
