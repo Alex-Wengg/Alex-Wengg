@@ -66,6 +66,11 @@ https://x.com/fastinoAI
 
 https://x.com/SeraAndroid/status/2108629662238961694?s=20
 
+https://x.com/googlegemma/status/2115150306032193954
+
+<img width="447" height="528" alt="image" src="https://github.com/user-attachments/assets/247416a5-9d37-434f-8342-8a941799eebd" />
+
+
 <img width="443" height="450" alt="image" src="https://github.com/user-attachments/assets/2c3ad9bd-0bec-47e0-bac9-4d4dd1b45d06" />
 
 - [clef-text-0.6B](https://huggingface.co/FluidInference/clef-text-0.6b-coreml) — distilled Cloudflare's 9B clef-flash into a 0.6B decision model that runs 100% on the Apple Neural Engine; 1,000 support tickets triaged in 57 s on an M5 Pro, 48 ms per ticket, within a few points of the 9B on classification ([demo](https://x.com/Alex_tra_memory/status/2108959518386458695)) · 494 likes · 45 reposts · 32K views
