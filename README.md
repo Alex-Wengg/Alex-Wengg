@@ -35,6 +35,7 @@ AI and machine learning engineer building agentic systems and inference engines 
   - Fixed external RAG result ranking across query windows ([#3750](https://github.com/vllm-project/semantic-router/pull/3750))
   - Secured Playground feedback for read users ([#3755](https://github.com/vllm-project/semantic-router/pull/3755))
   - Hardened Dashboard API authorization with mutation-boundary rechecks ([a3174df](https://github.com/vllm-project/semantic-router/commit/a3174df365c496cbcc1f01ca6137061556618781))
+- [KServe](https://github.com/kserve/kserve) — made KEDA autoscaling honor the target type an InferenceService sets for External and PodMetric metrics, instead of silently defaulting to AverageValue ([#6185](https://github.com/kserve/kserve/pull/6185)) (**6.1K+ ⭐**)
 - [IREE](https://github.com/iree-org/iree) (**4K+ ⭐**)
   - Fixed a global optimization crash in RaiseSpecialOps ([#24626](https://github.com/iree-org/iree/pull/24626))
   - Moved compiler passes into the main codegen tree and retired the `iree-dialects` directory ([#24501](https://github.com/iree-org/iree/pull/24501), [#24543](https://github.com/iree-org/iree/pull/24543), [#24612](https://github.com/iree-org/iree/pull/24612))
