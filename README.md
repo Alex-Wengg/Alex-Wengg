@@ -38,6 +38,7 @@ AI and machine learning engineer building agentic systems and inference engines 
 - [IREE](https://github.com/iree-org/iree) (**4K+ ⭐**)
   - Fixed a global optimization crash in RaiseSpecialOps ([#24626](https://github.com/iree-org/iree/pull/24626))
   - Moved compiler passes into the main codegen tree and retired the `iree-dialects` directory ([#24501](https://github.com/iree-org/iree/pull/24501), [#24543](https://github.com/iree-org/iree/pull/24543), [#24612](https://github.com/iree-org/iree/pull/24612))
+- [AgentENV](https://github.com/kvcache-ai/AgentENV) — fixed the ublk storage daemon leaking block devices when a client times out before receiving its device handoff, by rolling back undelivered handoffs ([#431](https://github.com/kvcache-ai/AgentENV/pull/431)) (**3.6K+ ⭐**)
 - [vLLM Production Stack](https://github.com/vllm-project/production-stack) — fixed router static service discovery to reject mismatched model list configs at startup instead of failing at request time ([#1084](https://github.com/vllm-project/production-stack/pull/1084)) (**2.6K+ ⭐**)
 - [OpenOats](https://github.com/yazinsai/OpenOats) — contributed its horizontal wordmark for marketing materials (**2.5K+ ⭐**)
 - [Jobpulse](https://jobpulse.fyi/) — built an AI-powered job search site for beginners that peaked at **10,000 monthly users**
