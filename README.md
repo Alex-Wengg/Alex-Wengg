@@ -27,6 +27,8 @@ AI and machine learning engineer building agentic systems and inference engines 
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)) (**38K+ ⭐**)
 - [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
 - [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — made the disaggregated-serving prefill router fail closed with a retryable 503 while a prefill target is still activating, instead of silently sending requests to decode-only workers ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)) (**8.4K+ ⭐**)
+  - https://ai-dynamo.org/#updates  <img width="996" height="703" alt="image" src="https://github.com/user-attachments/assets/0d6fceca-322d-4a5d-b6d5-8373f94bdc3b" />
+
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.1K+ ⭐**)
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.3K+ ⭐**)
   - Member of two [workgroups](https://vllm-sr.ai/community/work-groups): **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
