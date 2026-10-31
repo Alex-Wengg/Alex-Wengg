@@ -29,14 +29,6 @@ AI and machine learning engineer building agentic systems and inference engines 
   - Secured Playground feedback for read users ([#3755](https://github.com/vllm-project/semantic-router/pull/3755))
   - Hardened Dashboard API authorization with mutation-boundary rechecks ([a3174df](https://github.com/vllm-project/semantic-router/commit/a3174df365c496cbcc1f01ca6137061556618781))
 - [KServe](https://github.com/kserve/kserve) — made KEDA autoscaling honor the target type an InferenceService sets for External and PodMetric metrics, instead of silently defaulting to AverageValue ([#6185](https://github.com/kserve/kserve/pull/6185)) (**6.1K+ ⭐**)
-- [IREE](https://github.com/iree-org/iree) (**4K+ ⭐**)
-  - Fixed a global optimization crash in RaiseSpecialOps ([#24626](https://github.com/iree-org/iree/pull/24626))
-  - Moved compiler passes into the main codegen tree and retired the `iree-dialects` directory ([#24501](https://github.com/iree-org/iree/pull/24501), [#24543](https://github.com/iree-org/iree/pull/24543), [#24612](https://github.com/iree-org/iree/pull/24612))
-- [AgentENV](https://github.com/kvcache-ai/AgentENV) — fixed the ublk storage daemon leaking block devices when a client times out before receiving its device handoff, by rolling back undelivered handoffs ([#431](https://github.com/kvcache-ai/AgentENV/pull/431)) 
-- [vLLM Production Stack](https://github.com/vllm-project/production-stack) — fixed router static service discovery to reject mismatched model list configs at startup instead of failing at request time ([#1084](https://github.com/vllm-project/production-stack/pull/1084)) 
-- [OpenOats](https://github.com/yazinsai/OpenOats) — contributed its horizontal wordmark for marketing materials 
-- [Emmy](https://github.com/cloudrift-ai/emmy) — CloudRift's GPU compiler for LLM inference: made kernel lowering fail loudly instead of silently returning an unwritten output when a fused kernel drops a declared store ([#1257](https://github.com/cloudrift-ai/emmy/pull/1257)); fixing permutes that silently compiled as reshapes is in review ([#1280](https://github.com/cloudrift-ai/emmy/pull/1280))
-
 
 
 **Projects I work on** — at [Fluid Inference](https://github.com/FluidInference), which was **acquired by Levenza**
