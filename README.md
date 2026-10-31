@@ -19,6 +19,7 @@ AI and machine learning engineer building agentic systems and inference engines 
 - [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — made the disaggregated-serving prefill router fail closed with a retryable 503 while a prefill target is still activating, instead of silently sending requests to decode-only workers ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)) (**8.4K+ ⭐**)
   - https://ai-dynamo.org/#updates  <img width="996" height="703" alt="image" src="https://github.com/user-attachments/assets/0d6fceca-322d-4a5d-b6d5-8373f94bdc3b" />
 
+- [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M single-stage TTS support and deployment recipes
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.1K+ ⭐**)
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.3K+ ⭐**)
   - Member of two [workgroups](https://vllm-sr.ai/community/work-groups): **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
