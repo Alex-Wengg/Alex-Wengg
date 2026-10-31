@@ -12,17 +12,6 @@ AI and machine learning engineer building agentic systems and inference engines 
 
 #### Contributions
 
-**Projects I work on** — at [Fluid Inference](https://github.com/FluidInference), which was **acquired by Levenza**
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**3.2K+ ⭐**)
-  - Supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
-  - [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml): over **2,000,000 total downloads**, peaked at **500,000 monthly downloads**
-- [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
-  - Its distilled & finetuned models brought 1,000+ Twitter [followers](https://x.com/Alex_tra_memory) in [1 month](https://x.com/Alex_tra_memory/status/2111887700282466530?s=20)
-- [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
-  - **500,000+ monthly model downloads** across the Core ML models on [FluidInference](https://huggingface.co/FluidInference)
-
-<img width="450" alt="1,001 Twitter followers" src="https://github.com/user-attachments/assets/02e74268-c2e9-4936-bf22-2eec2b5e6f48" />
-
 **Open-source collaborations and apps**
 - [vLLM](https://github.com/vllm-project/vllm) — added NVIDIA Canary ([canary-1b-v2](https://huggingface.co/nvidia/canary-1b-v2)): speech recognition and X↔English speech translation in 25 European languages, served through the OpenAI-compatible audio API; output is token-identical to Transformers, with 12.34 WER on earnings22 ([#64215](https://github.com/vllm-project/vllm/pull/64215)) (**95K+ ⭐**)
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)) (**38K+ ⭐**)
@@ -46,6 +35,20 @@ AI and machine learning engineer building agentic systems and inference engines 
 - [vLLM Production Stack](https://github.com/vllm-project/production-stack) — fixed router static service discovery to reject mismatched model list configs at startup instead of failing at request time ([#1084](https://github.com/vllm-project/production-stack/pull/1084)) 
 - [OpenOats](https://github.com/yazinsai/OpenOats) — contributed its horizontal wordmark for marketing materials 
 - [Emmy](https://github.com/cloudrift-ai/emmy) — CloudRift's GPU compiler for LLM inference: made kernel lowering fail loudly instead of silently returning an unwritten output when a fused kernel drops a declared store ([#1257](https://github.com/cloudrift-ai/emmy/pull/1257)); fixing permutes that silently compiled as reshapes is in review ([#1280](https://github.com/cloudrift-ai/emmy/pull/1280))
+
+
+
+**Projects I work on** — at [Fluid Inference](https://github.com/FluidInference), which was **acquired by Levenza**
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**3.2K+ ⭐**)
+  - Supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
+  - [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml): over **2,000,000 total downloads**, peaked at **500,000 monthly downloads**
+- [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
+  - Its distilled & finetuned models brought 1,000+ Twitter [followers](https://x.com/Alex_tra_memory) in [1 month](https://x.com/Alex_tra_memory/status/2111887700282466530?s=20)
+- [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
+  - **500,000+ monthly model downloads** across the Core ML models on [FluidInference](https://huggingface.co/FluidInference)
+
+<img width="450" alt="1,001 Twitter followers" src="https://github.com/user-attachments/assets/02e74268-c2e9-4936-bf22-2eec2b5e6f48" />
+
 
 **Some Experiment Highlights** (Swift runtimes in [FluidUse](https://github.com/FluidInference/FluidUse))
 - [laya](https://huggingface.co/FluidInference/laya-coreml) — Convai's typed decision model with 99.5% of ops on the Apple Neural Engine, 3.7 ms per decision on an M5 Pro ([demo](https://x.com/Alex_tra_memory/status/2102161088598970783)) · 1,323 likes · 111 reposts · 120K views
