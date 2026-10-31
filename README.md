@@ -24,6 +24,7 @@ AI and machine learning engineer building agentic systems and inference engines 
 <img width="450" alt="1,001 Twitter followers" src="https://github.com/user-attachments/assets/02e74268-c2e9-4936-bf22-2eec2b5e6f48" />
 
 **Open-source collaborations and apps**
+- [vLLM](https://github.com/vllm-project/vllm) — added NVIDIA Canary ([canary-1b-v2](https://huggingface.co/nvidia/canary-1b-v2)): speech recognition and X↔English speech translation in 25 European languages, served through the OpenAI-compatible audio API; output is token-identical to Transformers, with 12.34 WER on earnings22 ([#64215](https://github.com/vllm-project/vllm/pull/64215)) (**95K+ ⭐**)
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)) (**38K+ ⭐**)
 - [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
 - [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — made the disaggregated-serving prefill router fail closed with a retryable 503 while a prefill target is still activating, instead of silently sending requests to decode-only workers ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)) (**8.4K+ ⭐**)
