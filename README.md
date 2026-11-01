@@ -6,13 +6,13 @@ AI and machine learning engineer building agentic systems and inference engines 
 
 **Open-source collaborations and apps**
 - [vLLM](https://github.com/vllm-project/vllm) — added NVIDIA Canary ([canary-1b-v2](https://huggingface.co/nvidia/canary-1b-v2)): speech recognition and X↔English speech translation in 25 European languages, served through the OpenAI-compatible audio API; output is token-identical to Transformers, with 12.34 WER on earnings22 ([#64215](https://github.com/vllm-project/vllm/pull/64215)) (**95K+ ⭐**)
-- [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)) (**38K+ ⭐**)
+- [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)), and made a diffusion worker exit after an unrecoverable CUDA error, instead of serving on a broken device while /health still reported ok ([#45065](https://github.com/sgl-project/sglang/pull/45065)) (**38K+ ⭐**)
 - [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
 - [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — improved disaggregated serving and inference infrastructure: made the prefill router fail closed with a retryable 503 while a target activates ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)), sized multimodal cache budgets for DeepStack embeddings ([#17249](https://github.com/ai-dynamo/dynamo/pull/17249)), and fixed DCGM metrics scrape connection handling ([#17387](https://github.com/ai-dynamo/dynamo/pull/17387)) (**8.4K+ ⭐**)
   - https://ai-dynamo.org/#updates  <img width="996" height="703" alt="image" src="https://github.com/user-attachments/assets/0d6fceca-322d-4a5d-b6d5-8373f94bdc3b" />
 
-- [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M single-stage TTS support and deployment recipes
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.1K+ ⭐**)
+- [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M, the most-downloaded open TTS model, as a native single-stage TTS: loads hexgrad's checkpoint as-is with output identical to the reference package, all 54 voices in 9 languages, streaming behind an OpenAI-compatible endpoint ([#9637](https://github.com/vllm-project/vllm-omni/pull/9637)) (**7.4K+ ⭐**)
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.3K+ ⭐**)
   - Member of two [workgroups](https://vllm-sr.ai/community/work-groups): **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
   - Early access to [Decision 3.0](https://huggingface.co/collections/vllm-sr/decision-30): ported d3 to Core ML ([d3-coreml](https://huggingface.co/FluidInference/d3-coreml))
@@ -20,13 +20,13 @@ AI and machine learning engineer building agentic systems and inference engines 
   - Fixed external RAG result ranking across query windows ([#3750](https://github.com/vllm-project/semantic-router/pull/3750))
   - Secured Playground feedback for read users ([#3755](https://github.com/vllm-project/semantic-router/pull/3755))
   - Hardened Dashboard API authorization with mutation-boundary rechecks ([a3174df](https://github.com/vllm-project/semantic-router/commit/a3174df365c496cbcc1f01ca6137061556618781))
-- [KServe](https://github.com/kserve/kserve) — made KEDA autoscaling honor the target type an InferenceService sets for External and PodMetric metrics, instead of silently defaulting to AverageValue ([#6185](https://github.com/kserve/kserve/pull/6185)) (**6.1K+ ⭐**)
+- [KServe](https://github.com/kserve/kserve) — made KEDA autoscaling honor the target type an InferenceService sets for External and PodMetric metrics, instead of silently defaulting to AverageValue ([#6185](https://github.com/kserve/kserve/pull/6185)), and fixed in-flight gRPC requests failing on SIGTERM by unloading models only after the servers drain ([#6488](https://github.com/kserve/kserve/pull/6488)) (**6.1K+ ⭐**)
 
 
 **Projects I work on** — at [Fluid Inference](https://github.com/FluidInference), which was **acquired by Levenza**
 - [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**3.2K+ ⭐**)
   - Supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
-  - [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml): over **2,000,000 total downloads**, peaked at **500,000 monthly downloads**
+  - [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml): nearly **3,000,000 total downloads**, peaked at **500,000 monthly downloads**
 - [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
   - Its distilled & finetuned models brought 1,000+ Twitter [followers](https://x.com/Alex_tra_memory) in [1 month](https://x.com/Alex_tra_memory/status/2111887700282466530?s=20)
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
