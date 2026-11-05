@@ -48,72 +48,70 @@
   - Supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
   - [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml): nearly **3,000,000 total downloads**, peaked at **500,000 monthly downloads**
 - [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
-  - Its distilled & finetuned models brought 1,000+ Twitter [followers](https://x.com/Alex_tra_memory) in [1 month](https://x.com/Alex_tra_memory/status/2111887700282466530?s=20)
-    <details><summary>Screenshot: 1,001 followers</summary>
+  <details><summary><b>Some Experiment Highlights</b>: laya, GLiNER2.5-Decide, EmbeddingGemma 2, clef-text-0.6B, Decision 3.0</summary>
 
-    <img width="450" alt="1,001 Twitter followers" src="https://github.com/user-attachments/assets/02e74268-c2e9-4936-bf22-2eec2b5e6f48" />
+  - [laya](https://huggingface.co/FluidInference/laya-coreml) — Convai's typed decision model with 99.5% of ops on the Apple Neural Engine, 3.7 ms per decision on an M5 Pro ([demo](https://x.com/Alex_tra_memory/status/2102161088598970783)) · 1,323 likes · 111 reposts · 120K views
+    <details><summary>Reactions on X: jackzampolin, JiliJeanlouis, ClementDelangue, victormustar</summary>
+
+    <table>
+      <tr>
+        <td align="center" valign="top"><a href="https://x.com/jackzampolin/status/2102441521048080627?s=20">@jackzampolin</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/41622204-29e3-4eb7-9ebd-b1dd5bc76780" /></td>
+        <td align="center" valign="top"><a href="https://x.com/JiliJeanlouis">@JiliJeanlouis</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/7015727f-aca7-4d3c-820d-5ad907cab993" /></td>
+        <td align="center" valign="top"><a href="https://x.com/ClementDelangue/reposts">@ClementDelangue reposts</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/5a1038f2-a405-4f04-9080-54ec8f36a1cb" /></td>
+        <td align="center" valign="top"><a href="https://x.com/victormustar">@victormustar</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/0f93e41e-9dc7-4587-88a9-bb9a494f71f3" /></td>
+      </tr>
+    </table>
 
     </details>
+  - [GLiNER2.5-Decide](https://huggingface.co/FluidInference/gliner2-5-decide-coreml) — Fastino's 340M decision model on Core ML: ~4× faster, ~5× less peak RAM, half the size ([demo](https://x.com/Alex_tra_memory/status/2103558426618163708)) · 880 likes · 83 reposts · 69K views
+    <details><summary>Reactions on X: fastinoAI</summary>
+
+    https://x.com/fastinoAI
+
+    <img width="458" height="539" alt="image" src="https://github.com/user-attachments/assets/028204a7-aaa5-405d-8b84-195c22c9b7a9" />
+
+    </details>
+  - [EmbeddingGemma 2](https://huggingface.co/FluidInference/embeddinggemma-2-coreml) — text encoder 100% on the Apple Neural Engine; sorts 10,080 posts into topics live at ~620/s on a MacBook, any topic splits into subtopics in under a second ([demo](https://x.com/Alex_tra_memory/status/2108391275560931355)) · 693 likes · 51 reposts · 34K views
+    <details><summary>Reactions on X: SeraAndroid, googlegemma</summary>
+
+    https://x.com/SeraAndroid/status/2108629662238961694?s=20
+
+    https://x.com/googlegemma/status/2115150306032193954
+
+    <img width="447" height="528" alt="image" src="https://github.com/user-attachments/assets/247416a5-9d37-434f-8342-8a941799eebd" />
+
+    <img width="443" height="450" alt="image" src="https://github.com/user-attachments/assets/2c3ad9bd-0bec-47e0-bac9-4d4dd1b45d06" />
+
+    </details>
+  - [clef-text-0.6B](https://huggingface.co/FluidInference/clef-text-0.6b-coreml) — distilled Cloudflare's 9B clef-flash into a 0.6B decision model that runs 100% on the Apple Neural Engine; 1,000 support tickets triaged in 57 s on an M5 Pro, 48 ms per ticket, within a few points of the 9B on classification ([demo](https://x.com/Alex_tra_memory/status/2108959518386458695)) · 494 likes · 45 reposts · 32K views
+    <details><summary>Reactions on X: art_zucker, ClementDelangue</summary>
+
+    <table>
+      <tr>
+        <td align="center" valign="top"><a href="https://x.com/art_zucker/reposts">@art_zucker reposts</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/99e45041-eebe-47ca-ab36-5b586fddf701" /></td>
+        <td align="center" valign="top"><a href="https://x.com/ClementDelangue/reposts">@ClementDelangue reposts</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/ea4615e7-1522-4eed-8bf2-e7f43bc2d2ba" /></td>
+      </tr>
+    </table>
+
+    </details>
+  - [Decision 3.0](https://huggingface.co/FluidInference/d3-coreml) — d3-lite, nano and mini on Core ML; d3-lite triages 1,000 pull requests into vLLM-SR workgroups live on an M5 Pro at 0.12 s per PR, 8.3 PRs/s ([demo](https://x.com/Alex_tra_memory/status/2109343807854493724)) · 432 likes · 42 reposts · 28K views
+    <details><summary>Reactions on X: ClementDelangue, victormustar</summary>
+
+    <table>
+      <tr>
+        <td align="center" valign="top"><a href="https://x.com/ClementDelangue">@ClementDelangue</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/c56da3f8-ad48-49bc-9b1a-81a64b4219f3" /></td>
+        <td align="center" valign="top"><a href="https://x.com/victormustar">@victormustar</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/7f8e330a-e2ac-4918-a135-5c60fb822ce9" /></td>
+      </tr>
+    </table>
+
+    </details>
+
+  </details>
+
+  <details><summary>Its distilled & finetuned models brought 1,000+ Twitter <a href="https://x.com/Alex_tra_memory">followers</a> in <a href="https://x.com/Alex_tra_memory/status/2111887700282466530?s=20">1 month</a></summary>
+
+  <img width="450" alt="1,001 Twitter followers" src="https://github.com/user-attachments/assets/02e74268-c2e9-4936-bf22-2eec2b5e6f48" />
+
+  </details>
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
   - **500,000+ monthly model downloads** across the Core ML models on [FluidInference](https://huggingface.co/FluidInference)
-
-
-<details><summary><b>Some Experiment Highlights</b> (Swift runtimes in <a href="https://github.com/FluidInference/FluidUse">FluidUse</a>)</summary>
-
-- [laya](https://huggingface.co/FluidInference/laya-coreml) — Convai's typed decision model with 99.5% of ops on the Apple Neural Engine, 3.7 ms per decision on an M5 Pro ([demo](https://x.com/Alex_tra_memory/status/2102161088598970783)) · 1,323 likes · 111 reposts · 120K views
-  <details><summary>Reactions on X: jackzampolin, JiliJeanlouis, ClementDelangue, victormustar</summary>
-
-  <table>
-    <tr>
-      <td align="center" valign="top"><a href="https://x.com/jackzampolin/status/2102441521048080627?s=20">@jackzampolin</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/41622204-29e3-4eb7-9ebd-b1dd5bc76780" /></td>
-      <td align="center" valign="top"><a href="https://x.com/JiliJeanlouis">@JiliJeanlouis</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/7015727f-aca7-4d3c-820d-5ad907cab993" /></td>
-      <td align="center" valign="top"><a href="https://x.com/ClementDelangue/reposts">@ClementDelangue reposts</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/5a1038f2-a405-4f04-9080-54ec8f36a1cb" /></td>
-      <td align="center" valign="top"><a href="https://x.com/victormustar">@victormustar</a><br><img width="200" alt="image" src="https://github.com/user-attachments/assets/0f93e41e-9dc7-4587-88a9-bb9a494f71f3" /></td>
-    </tr>
-  </table>
-
-  </details>
-- [GLiNER2.5-Decide](https://huggingface.co/FluidInference/gliner2-5-decide-coreml) — Fastino's 340M decision model on Core ML: ~4× faster, ~5× less peak RAM, half the size ([demo](https://x.com/Alex_tra_memory/status/2103558426618163708)) · 880 likes · 83 reposts · 69K views
-  <details><summary>Reactions on X: fastinoAI</summary>
-
-  https://x.com/fastinoAI
-
-  <img width="458" height="539" alt="image" src="https://github.com/user-attachments/assets/028204a7-aaa5-405d-8b84-195c22c9b7a9" />
-
-  </details>
-- [EmbeddingGemma 2](https://huggingface.co/FluidInference/embeddinggemma-2-coreml) — text encoder 100% on the Apple Neural Engine; sorts 10,080 posts into topics live at ~620/s on a MacBook, any topic splits into subtopics in under a second ([demo](https://x.com/Alex_tra_memory/status/2108391275560931355)) · 693 likes · 51 reposts · 34K views
-  <details><summary>Reactions on X: SeraAndroid, googlegemma</summary>
-
-  https://x.com/SeraAndroid/status/2108629662238961694?s=20
-
-  https://x.com/googlegemma/status/2115150306032193954
-
-  <img width="447" height="528" alt="image" src="https://github.com/user-attachments/assets/247416a5-9d37-434f-8342-8a941799eebd" />
-
-  <img width="443" height="450" alt="image" src="https://github.com/user-attachments/assets/2c3ad9bd-0bec-47e0-bac9-4d4dd1b45d06" />
-
-  </details>
-- [clef-text-0.6B](https://huggingface.co/FluidInference/clef-text-0.6b-coreml) — distilled Cloudflare's 9B clef-flash into a 0.6B decision model that runs 100% on the Apple Neural Engine; 1,000 support tickets triaged in 57 s on an M5 Pro, 48 ms per ticket, within a few points of the 9B on classification ([demo](https://x.com/Alex_tra_memory/status/2108959518386458695)) · 494 likes · 45 reposts · 32K views
-  <details><summary>Reactions on X: art_zucker, ClementDelangue</summary>
-
-  <table>
-    <tr>
-      <td align="center" valign="top"><a href="https://x.com/art_zucker/reposts">@art_zucker reposts</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/99e45041-eebe-47ca-ab36-5b586fddf701" /></td>
-      <td align="center" valign="top"><a href="https://x.com/ClementDelangue/reposts">@ClementDelangue reposts</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/ea4615e7-1522-4eed-8bf2-e7f43bc2d2ba" /></td>
-    </tr>
-  </table>
-
-  </details>
-- [Decision 3.0](https://huggingface.co/FluidInference/d3-coreml) — d3-lite, nano and mini on Core ML; d3-lite triages 1,000 pull requests into vLLM-SR workgroups live on an M5 Pro at 0.12 s per PR, 8.3 PRs/s ([demo](https://x.com/Alex_tra_memory/status/2109343807854493724)) · 432 likes · 42 reposts · 28K views
-  <details><summary>Reactions on X: ClementDelangue, victormustar</summary>
-
-  <table>
-    <tr>
-      <td align="center" valign="top"><a href="https://x.com/ClementDelangue">@ClementDelangue</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/c56da3f8-ad48-49bc-9b1a-81a64b4219f3" /></td>
-      <td align="center" valign="top"><a href="https://x.com/victormustar">@victormustar</a><br><img width="420" alt="image" src="https://github.com/user-attachments/assets/7f8e330a-e2ac-4918-a135-5c60fb822ce9" /></td>
-    </tr>
-  </table>
-
-  </details>
-
-</details>
