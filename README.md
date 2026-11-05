@@ -1,9 +1,3 @@
-### Hello, I'm Alex
-
-AI and machine learning engineer building agentic systems and inference engines from client side to server side.
-
-#### Contributions
-
 **Open-source collaborations and apps**
 - [vLLM](https://github.com/vllm-project/vllm) (**100K ⭐**) — 6 commits merged to `main`, in the top ~11% of its ~4,000 contributors
   <details><summary>6 merged PRs: Canary, Parakeet and Nemotron diarization support, fixes</summary>
