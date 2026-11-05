@@ -58,7 +58,8 @@ AI and machine learning engineer building agentic systems and inference engines 
   - **500,000+ monthly model downloads** across the Core ML models on [FluidInference](https://huggingface.co/FluidInference)
 
 
-**Some Experiment Highlights** (Swift runtimes in [FluidUse](https://github.com/FluidInference/FluidUse))
+<details><summary><b>Some Experiment Highlights</b> (Swift runtimes in <a href="https://github.com/FluidInference/FluidUse">FluidUse</a>)</summary>
+
 - [laya](https://huggingface.co/FluidInference/laya-coreml) — Convai's typed decision model with 99.5% of ops on the Apple Neural Engine, 3.7 ms per decision on an M5 Pro ([demo](https://x.com/Alex_tra_memory/status/2102161088598970783)) · 1,323 likes · 111 reposts · 120K views
   <details><summary>Reactions on X: jackzampolin, JiliJeanlouis, ClementDelangue, victormustar</summary>
 
@@ -114,6 +115,8 @@ AI and machine learning engineer building agentic systems and inference engines 
   </table>
 
   </details>
+
+</details>
 
 
 #### Find me
