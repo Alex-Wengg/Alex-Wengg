@@ -43,12 +43,12 @@
 </details>
 
 
-**Projects I work on** — at [Fluid Inference](https://github.com/FluidInference), which was **acquired by Levenza**
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (**3.2K+ ⭐**)
+**Projects I work on** — at [Fluid Inference](https://github.com/FluidInference), which was acquired by Levenza
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (3.2K+ ⭐)
   - Supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
-  - [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml): nearly **3,000,000 total downloads**, peaked at **500,000 monthly downloads**
+  - [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml): nearly 3,000,000 total downloads, peaked at 500,000 monthly downloads
 - [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
-  <details><summary><b>Some Experiment Highlights</b>: laya, GLiNER2.5-Decide, EmbeddingGemma 2, clef-text-0.6B, Decision 3.0</summary>
+  <details><summary>Some Experiment Highlights: laya, GLiNER2.5-Decide, EmbeddingGemma 2, clef-text-0.6B, Decision 3.0</summary>
 
   - [laya](https://huggingface.co/FluidInference/laya-coreml) — Convai's typed decision model with 99.5% of ops on the Apple Neural Engine, 3.7 ms per decision on an M5 Pro ([demo](https://x.com/Alex_tra_memory/status/2102161088598970783)) · 1,323 likes · 111 reposts · 120K views
     <details><summary>Reactions on X: jackzampolin, JiliJeanlouis, ClementDelangue, victormustar</summary>
@@ -114,4 +114,4 @@
 
   </details>
 - [möbius](https://github.com/FluidInference/mobius) — model conversion and deployment across accelerators
-  - **500,000+ monthly model downloads** across the Core ML models on [FluidInference](https://huggingface.co/FluidInference)
+  - 500,000+ monthly model downloads across the Core ML models on [FluidInference](https://huggingface.co/FluidInference)
