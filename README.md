@@ -18,7 +18,6 @@ AI and machine learning engineer building agentic systems and inference engines 
   </details>
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)), and made a diffusion worker exit after an unrecoverable CUDA error, instead of serving on a broken device while /health still reported ok ([#45065](https://github.com/sgl-project/sglang/pull/45065)) (**40K+ ⭐**)
 - [PEFT](https://github.com/huggingface/peft) — fixed FRoD and EVA initialization crashing on Apple Silicon, where MPS has no float64, and the 13 test failures Hugging Face's new macOS CI found ([#4102](https://github.com/huggingface/peft/pull/4102)) (**21K+ ⭐**)
-- [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
 - [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — improved disaggregated serving and inference infrastructure: made the prefill router fail closed with a retryable 503 while a target activates ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)), sized multimodal cache budgets for DeepStack embeddings ([#17249](https://github.com/ai-dynamo/dynamo/pull/17249)), fixed DCGM metrics scrape connection handling ([#17387](https://github.com/ai-dynamo/dynamo/pull/17387)), and made the profiler size Hub checkpoints from their weight files instead of a parameter-count estimate that overstated quantized models 2–3× ([#17563](https://github.com/ai-dynamo/dynamo/pull/17563)) (**8.4K+ ⭐**)
   <details><summary>Featured in ai-dynamo.org updates</summary>
 
@@ -27,6 +26,10 @@ AI and machine learning engineer building agentic systems and inference engines 
   <img width="996" height="703" alt="image" src="https://github.com/user-attachments/assets/0d6fceca-322d-4a5d-b6d5-8373f94bdc3b" />
 
   </details>
+
+<details><summary><b>5 more:</b> Supertonic, mlx-audio, vLLM-Omni, vLLM Semantic Router, KServe</summary>
+
+- [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.1K+ ⭐**)
 - [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M, the most-downloaded open TTS model, as a native single-stage TTS: loads hexgrad's checkpoint as-is with output identical to the reference package, all 54 voices in 9 languages, streaming behind an OpenAI-compatible endpoint ([#9637](https://github.com/vllm-project/vllm-omni/pull/9637)) (**7.4K+ ⭐**)
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.3K+ ⭐**)
@@ -41,6 +44,8 @@ AI and machine learning engineer building agentic systems and inference engines 
 
   </details>
 - [KServe](https://github.com/kserve/kserve) — made KEDA autoscaling honor the target type an InferenceService sets for External and PodMetric metrics, instead of silently defaulting to AverageValue ([#6185](https://github.com/kserve/kserve/pull/6185)), and fixed in-flight gRPC requests failing on SIGTERM by unloading models only after the servers drain ([#6488](https://github.com/kserve/kserve/pull/6488)) (**6.1K+ ⭐**)
+
+</details>
 
 
 **Projects I work on** — at [Fluid Inference](https://github.com/FluidInference), which was **acquired by Levenza**
