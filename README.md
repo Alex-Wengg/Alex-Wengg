@@ -1,6 +1,6 @@
 **Open-source collaborations and apps**
-- [vLLM](https://github.com/vllm-project/vllm) (**100K ⭐**) — 7 commits merged to `main`, in the top ~11% of its ~4,000 contributors
-  <details><summary>7 merged PRs: Canary, Parakeet and Nemotron diarization support, Gemma 4 GPU image normalization, fixes</summary>
+- [vLLM](https://github.com/vllm-project/vllm) (**96K+ ⭐**) — 8 commits merged to `main`, in the top ~11% of its ~3,700 contributors
+  <details><summary>8 merged PRs: Canary, Parakeet and Nemotron diarization support, Gemma 4 GPU image normalization, fixes</summary>
 
   - Added NVIDIA Canary ([canary-1b-v2](https://huggingface.co/nvidia/canary-1b-v2)): speech recognition and X↔English speech translation in 25 European languages, served through the OpenAI-compatible audio API; output is token-identical to Transformers, with 12.34 WER on earnings22 ([#64215](https://github.com/vllm-project/vllm/pull/64215))
   - Made Canary transcription return a 400 when `language` is missing, instead of silently answering non-English audio in English, and added CI coverage for Canary translation ([#65445](https://github.com/vllm-project/vllm/pull/65445))
@@ -9,10 +9,11 @@
   - Fixed `main`'s failing pre-commit after two merged PRs collided on Muse Spark's weight-loading hook, which also restored its ROCm monokernel path ([#65080](https://github.com/vllm-project/vllm/pull/65080))
   - Fixed chat derender misclassifying answers as reasoning: the reasoning and tool parsers never saw the prompt in the usual render → generate → derender flow, so they now fall back to the caller's prompt token IDs ([#63434](https://github.com/vllm-project/vllm/pull/63434))
   - Moved Gemma 4's image normalization from the CPU processor onto the GPU (`mm_device_do_normalize`), with a perplexity test against the CPU path ([#65577](https://github.com/vllm-project/vllm/pull/65577))
+  - Fixed CLIP and SigLIP returning a different embedding for text sent as chat `messages` than for the same text sent as `input`: the fallback chat template dropped the tokenizer's BOS/EOS, so each model now gets a template that keeps them ([#66417](https://github.com/vllm-project/vllm/pull/66417))
 
   </details>
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)), and made a diffusion worker exit after an unrecoverable CUDA error, instead of serving on a broken device while /health still reported ok ([#45065](https://github.com/sgl-project/sglang/pull/45065)) (**40K+ ⭐**)
-- [oh-my-pi](https://github.com/can1357/oh-my-pi) — fixed the coding agent's browser tool logging a bare `Object` when a page rejects with something other than an Error, so `tab.errors()` now records objects as JSON and strings as-is ([#18251](https://github.com/can1357/oh-my-pi/pull/18251)) (**38K+ ⭐**)
+- [oh-my-pi](https://github.com/can1357/oh-my-pi) — 3 fixes to the coding agent: `lsp reload` now stops a superseded shared language server instead of leaving it running for 5 minutes ([#18254](https://github.com/can1357/oh-my-pi/pull/18254)), `omp stats` no longer re-parses every session after ZFS renumbers the filesystem's device ([#18536](https://github.com/can1357/oh-my-pi/pull/18536)), and the browser tool records non-Error page rejections as JSON instead of a bare `Object` ([#18251](https://github.com/can1357/oh-my-pi/pull/18251)) (**38K+ ⭐**)
 - [PEFT](https://github.com/huggingface/peft) — fixed FRoD and EVA initialization crashing on Apple Silicon, where MPS has no float64, and the 13 test failures Hugging Face's new macOS CI found ([#4102](https://github.com/huggingface/peft/pull/4102)) (**21K+ ⭐**)
 - [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — improved disaggregated serving and inference infrastructure: made the prefill router fail closed with a retryable 503 while a target activates ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)), sized multimodal cache budgets for DeepStack embeddings ([#17249](https://github.com/ai-dynamo/dynamo/pull/17249)), fixed DCGM metrics scrape connection handling ([#17387](https://github.com/ai-dynamo/dynamo/pull/17387)), and made the profiler size Hub checkpoints from their weight files instead of a parameter-count estimate that overstated quantized models 2–3× ([#17563](https://github.com/ai-dynamo/dynamo/pull/17563)) (**8.4K+ ⭐**)
   <details><summary>Featured in ai-dynamo.org updates</summary>
@@ -28,12 +29,13 @@
 - [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.1K+ ⭐**)
 - [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M, the most-downloaded open TTS model, as a native single-stage TTS: loads hexgrad's checkpoint as-is with output identical to the reference package, all 54 voices in 9 languages, streaming behind an OpenAI-compatible endpoint ([#9637](https://github.com/vllm-project/vllm-omni/pull/9637)) (**7.4K+ ⭐**)
-- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.3K+ ⭐**)
-  <details><summary>Workgroup member, Decision 3.0 Core ML port and blog post, 3 fixes</summary>
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.4K+ ⭐**)
+  <details><summary>Workgroup member, Decision 3.0 Core ML port and blog post, trusted-gateway credentials, 3 fixes</summary>
 
   - Member of two [workgroups](https://vllm-sr.ai/community/work-groups): **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
   - Early access to [Decision 3.0](https://huggingface.co/collections/vllm-sr/decision-30): ported d3 to Core ML ([d3-coreml](https://huggingface.co/FluidInference/d3-coreml))
   - Wrote the [Decision 3.0 on Apple Silicon](https://vllm-sr.ai/blog/decision-3-0-on-apple-silicon) blog post: d3-lite, nano and mini on Core ML, matching upstream on JevBench and typed-decisions, 2.5–4× faster per request on a Mac ([#4905](https://github.com/vllm-project/semantic-router/pull/4905), [#4975](https://github.com/vllm-project/semantic-router/pull/4975))
+  - Added trusted-gateway credentials: the Router forwards a credential the deployment injects only to backends marked as trusted gateways (LiteLLM/one-api style relays), never the client's raw `Authorization` header, and fails closed with a 401 ([#5144](https://github.com/vllm-project/semantic-router/pull/5144))
   - Fixed external RAG result ranking across query windows ([#3750](https://github.com/vllm-project/semantic-router/pull/3750))
   - Secured Playground feedback for read users ([#3755](https://github.com/vllm-project/semantic-router/pull/3755))
   - Hardened Dashboard API authorization with mutation-boundary rechecks ([a3174df](https://github.com/vllm-project/semantic-router/commit/a3174df365c496cbcc1f01ca6137061556618781))
