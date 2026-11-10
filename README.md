@@ -1,6 +1,6 @@
 **Open-source collaborations and apps**
-- [vLLM](https://github.com/vllm-project/vllm) (**96K+ ⭐**) — 8 commits merged to `main`, in the top ~11% of its ~3,700 contributors
-  <details><summary>8 merged PRs: Canary, Parakeet and Nemotron diarization support, Gemma 4 GPU image normalization, fixes</summary>
+- [vLLM](https://github.com/vllm-project/vllm) (**96K+ ⭐**) — 9 commits merged to `main`, in the top ~10% of its ~3,700 contributors
+  <details><summary>9 merged PRs: Canary, Parakeet and Nemotron diarization support, Gemma 4 GPU image normalization, fixes</summary>
 
   - Added NVIDIA Canary ([canary-1b-v2](https://huggingface.co/nvidia/canary-1b-v2)): speech recognition and X↔English speech translation in 25 European languages, served through the OpenAI-compatible audio API; output is token-identical to Transformers, with 12.34 WER on earnings22 ([#64215](https://github.com/vllm-project/vllm/pull/64215))
   - Made Canary transcription return a 400 when `language` is missing, instead of silently answering non-English audio in English, and added CI coverage for Canary translation ([#65445](https://github.com/vllm-project/vllm/pull/65445))
@@ -9,6 +9,7 @@
   - Fixed `main`'s failing pre-commit after two merged PRs collided on Muse Spark's weight-loading hook, which also restored its ROCm monokernel path ([#65080](https://github.com/vllm-project/vllm/pull/65080))
   - Fixed chat derender misclassifying answers as reasoning: the reasoning and tool parsers never saw the prompt in the usual render → generate → derender flow, so they now fall back to the caller's prompt token IDs ([#63434](https://github.com/vllm-project/vllm/pull/63434))
   - Moved Gemma 4's image normalization from the CPU processor onto the GPU (`mm_device_do_normalize`), with a perplexity test against the CPU path ([#65577](https://github.com/vllm-project/vllm/pull/65577))
+  - Extended GPU image normalization to Gemma 4 Unified (the 12B checkpoints), and turned back on 36 of its processor tests that CI had been skipping ([#65724](https://github.com/vllm-project/vllm/pull/65724))
   - Fixed CLIP and SigLIP returning a different embedding for text sent as chat `messages` than for the same text sent as `input`: the fallback chat template dropped the tokenizer's BOS/EOS, so each model now gets a template that keeps them ([#66417](https://github.com/vllm-project/vllm/pull/66417))
 
   </details>
