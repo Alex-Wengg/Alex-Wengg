@@ -31,7 +31,7 @@
 - [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
 - [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.1K+ ⭐**)
 - [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M, the most-downloaded open TTS model, as a native single-stage TTS: loads hexgrad's checkpoint as-is with output identical to the reference package, all 54 voices in 9 languages, streaming behind an OpenAI-compatible endpoint ([#9637](https://github.com/vllm-project/vllm-omni/pull/9637)) (**7.4K+ ⭐**)
-- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.4K+ ⭐**)
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.4K+ ⭐**) — 6 commits merged to `main`, in the top ~27% of its ~320 contributors
   <details><summary>Workgroup member, Decision 3.0 Core ML port and blog post, trusted-gateway credentials, 3 fixes</summary>
 
   - Member of two [workgroups](https://vllm-sr.ai/community/work-groups): **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
