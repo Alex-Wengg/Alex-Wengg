@@ -1,6 +1,6 @@
 **Open-source collaborations and apps**
 - [vLLM](https://github.com/vllm-project/vllm) (**96K+ ⭐**) — 10 commits merged to `main`, in the top ~9% of its ~3,700 contributors
-  <details><summary>10 merged PRs: Canary, Parakeet and Nemotron diarization support, Gemma 4 GPU image normalization, fixes</summary>
+  <details><summary>PRs</summary>
 
   - Added NVIDIA Canary ([canary-1b-v2](https://huggingface.co/nvidia/canary-1b-v2)): speech recognition and X↔English speech translation in 25 European languages, served through the OpenAI-compatible audio API; output is token-identical to Transformers, with 12.34 WER on earnings22 ([#64215](https://github.com/vllm-project/vllm/pull/64215))
   - Made Canary transcription return a 400 when `language` is missing, instead of silently answering non-English audio in English, and added CI coverage for Canary translation ([#65445](https://github.com/vllm-project/vllm/pull/65445))
