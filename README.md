@@ -16,7 +16,7 @@
   </details>
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)), and made a diffusion worker exit after an unrecoverable CUDA error, instead of serving on a broken device while /health still reported ok ([#45065](https://github.com/sgl-project/sglang/pull/45065)) (**40K+ ⭐**)
 - [oh-my-pi](https://github.com/can1357/oh-my-pi) (**38K+ ⭐**) — 7 PRs merged to `main`, in the top ~8% of its ~850 PR authors
-  <details><summary>7 merged PRs: fixes to the coding agent's language servers, stats, SVG rendering, worktrees, history search, ACP and browser tool</summary>
+  <details><summary>PRs</summary>
 
   - `lsp reload` now stops a superseded shared language server instead of leaving it running for 5 minutes ([#18254](https://github.com/can1357/oh-my-pi/pull/18254))
   - `omp stats` no longer re-parses every session after ZFS renumbers the filesystem's device ([#18536](https://github.com/can1357/oh-my-pi/pull/18536))
