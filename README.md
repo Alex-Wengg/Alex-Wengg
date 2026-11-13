@@ -17,7 +17,6 @@
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)), and made a diffusion worker exit after an unrecoverable CUDA error, instead of serving on a broken device while /health still reported ok ([#45065](https://github.com/sgl-project/sglang/pull/45065)) (**40K+ ⭐**)
 - [oh-my-pi](https://github.com/can1357/oh-my-pi) — 7 PRs merged to `main`, in the top ~8% of its ~850 PR authors; 7 fixes to the coding agent: `lsp reload` now stops a superseded shared language server instead of leaving it running for 5 minutes ([#18254](https://github.com/can1357/oh-my-pi/pull/18254)), `omp stats` no longer re-parses every session after ZFS renumbers the filesystem's device ([#18536](https://github.com/can1357/oh-my-pi/pull/18536)), rendered SVGs no longer drop their text when a generic font family names a font that isn't installed ([#18538](https://github.com/can1357/oh-my-pi/pull/18538)), `worktree add` no longer fails on read-only files copied from the source checkout ([#18537](https://github.com/can1357/oh-my-pi/pull/18537)), prompt-history search no longer returns unrelated prompts for punctuated queries like `a/b` ([#19111](https://github.com/can1357/oh-my-pi/pull/19111)), ACP clients now see what background subagents spend ([#19113](https://github.com/can1357/oh-my-pi/pull/19113)), and the browser tool records non-Error page rejections as JSON instead of a bare `Object` ([#18251](https://github.com/can1357/oh-my-pi/pull/18251)) (**38K+ ⭐**)
 - [Cua](https://github.com/trycua/cua) — stopped the Windows driver from moving windows off their Task View virtual desktop when it clicks in the background; re-landed by a maintainer as [#7644](https://github.com/trycua/cua/pull/7644) with me as co-author, from [#5782](https://github.com/trycua/cua/pull/5782) (**32K+ ⭐**)
-- [PEFT](https://github.com/huggingface/peft) — fixed FRoD and EVA initialization crashing on Apple Silicon, where MPS has no float64, and the 13 test failures Hugging Face's new macOS CI found ([#4102](https://github.com/huggingface/peft/pull/4102)) (**21K+ ⭐**)
 - [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — improved disaggregated serving and inference infrastructure: made the prefill router fail closed with a retryable 503 while a target activates ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)), sized multimodal cache budgets for DeepStack embeddings ([#17249](https://github.com/ai-dynamo/dynamo/pull/17249)), fixed DCGM metrics scrape connection handling ([#17387](https://github.com/ai-dynamo/dynamo/pull/17387)), and made the profiler size Hub checkpoints from their weight files instead of a parameter-count estimate that overstated quantized models 2–3× ([#17563](https://github.com/ai-dynamo/dynamo/pull/17563)) (**8.4K+ ⭐**)
   <details><summary>Featured in ai-dynamo.org updates</summary>
 
@@ -26,13 +25,7 @@
   <img width="996" height="703" alt="image" src="https://github.com/user-attachments/assets/0d6fceca-322d-4a5d-b6d5-8373f94bdc3b" />
 
   </details>
-
-<details><summary><b>5 more:</b> Supertonic, mlx-audio, vLLM-Omni, vLLM Semantic Router, KServe</summary>
-
-- [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
-- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.1K+ ⭐**)
-- [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M, the most-downloaded open TTS model, as a native single-stage TTS: loads hexgrad's checkpoint as-is with output identical to the reference package, all 54 voices in 9 languages, streaming behind an OpenAI-compatible endpoint ([#9637](https://github.com/vllm-project/vllm-omni/pull/9637)) (**7.4K+ ⭐**)
-- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.4K+ ⭐**) — 6 commits merged to `main`, in the top ~27% of its ~320 contributors
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.4K+ ⭐**) — 6 commits merged to `main`, in the top ~22% of its ~290 contributors
   <details><summary>Workgroup member, Decision 3.0 Core ML port and blog post, trusted-gateway credentials, 3 fixes</summary>
 
   - Member of two [workgroups](https://vllm-sr.ai/community/work-groups): **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
@@ -44,6 +37,13 @@
   - Hardened Dashboard API authorization with mutation-boundary rechecks ([a3174df](https://github.com/vllm-project/semantic-router/commit/a3174df365c496cbcc1f01ca6137061556618781))
 
   </details>
+
+<details><summary><b>5 more:</b> PEFT, Supertonic, mlx-audio, vLLM-Omni, KServe</summary>
+
+- [PEFT](https://github.com/huggingface/peft) — fixed FRoD and EVA initialization crashing on Apple Silicon, where MPS has no float64, and the 13 test failures Hugging Face's new macOS CI found ([#4102](https://github.com/huggingface/peft/pull/4102)) (**21K+ ⭐**)
+- [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
+- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.1K+ ⭐**)
+- [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M, the most-downloaded open TTS model, as a native single-stage TTS: loads hexgrad's checkpoint as-is with output identical to the reference package, all 54 voices in 9 languages, streaming behind an OpenAI-compatible endpoint ([#9637](https://github.com/vllm-project/vllm-omni/pull/9637)) (**7.4K+ ⭐**)
 - [KServe](https://github.com/kserve/kserve) — made KEDA autoscaling honor the target type an InferenceService sets for External and PodMetric metrics, instead of silently defaulting to AverageValue ([#6185](https://github.com/kserve/kserve/pull/6185)), and fixed in-flight gRPC requests failing on SIGTERM by unloading models only after the servers drain ([#6488](https://github.com/kserve/kserve/pull/6488)) (**6.1K+ ⭐**)
 
 </details>
