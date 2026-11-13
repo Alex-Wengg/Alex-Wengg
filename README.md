@@ -15,7 +15,18 @@
 
   </details>
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)), and made a diffusion worker exit after an unrecoverable CUDA error, instead of serving on a broken device while /health still reported ok ([#45065](https://github.com/sgl-project/sglang/pull/45065)) (**40K+ ⭐**)
-- [oh-my-pi](https://github.com/can1357/oh-my-pi) — 7 PRs merged to `main`, in the top ~8% of its ~850 PR authors; 7 fixes to the coding agent: `lsp reload` now stops a superseded shared language server instead of leaving it running for 5 minutes ([#18254](https://github.com/can1357/oh-my-pi/pull/18254)), `omp stats` no longer re-parses every session after ZFS renumbers the filesystem's device ([#18536](https://github.com/can1357/oh-my-pi/pull/18536)), rendered SVGs no longer drop their text when a generic font family names a font that isn't installed ([#18538](https://github.com/can1357/oh-my-pi/pull/18538)), `worktree add` no longer fails on read-only files copied from the source checkout ([#18537](https://github.com/can1357/oh-my-pi/pull/18537)), prompt-history search no longer returns unrelated prompts for punctuated queries like `a/b` ([#19111](https://github.com/can1357/oh-my-pi/pull/19111)), ACP clients now see what background subagents spend ([#19113](https://github.com/can1357/oh-my-pi/pull/19113)), and the browser tool records non-Error page rejections as JSON instead of a bare `Object` ([#18251](https://github.com/can1357/oh-my-pi/pull/18251)) (**38K+ ⭐**)
+- [oh-my-pi](https://github.com/can1357/oh-my-pi) (**38K+ ⭐**) — 7 PRs merged to `main`, in the top ~8% of its ~850 PR authors
+  <details><summary>7 merged PRs: fixes to the coding agent's language servers, stats, SVG rendering, worktrees, history search, ACP and browser tool</summary>
+
+  - `lsp reload` now stops a superseded shared language server instead of leaving it running for 5 minutes ([#18254](https://github.com/can1357/oh-my-pi/pull/18254))
+  - `omp stats` no longer re-parses every session after ZFS renumbers the filesystem's device ([#18536](https://github.com/can1357/oh-my-pi/pull/18536))
+  - Rendered SVGs no longer drop their text when a generic font family names a font that isn't installed ([#18538](https://github.com/can1357/oh-my-pi/pull/18538))
+  - `worktree add` no longer fails on read-only files copied from the source checkout ([#18537](https://github.com/can1357/oh-my-pi/pull/18537))
+  - Prompt-history search no longer returns unrelated prompts for punctuated queries like `a/b` ([#19111](https://github.com/can1357/oh-my-pi/pull/19111))
+  - ACP clients now see what background subagents spend ([#19113](https://github.com/can1357/oh-my-pi/pull/19113))
+  - The browser tool records non-Error page rejections as JSON instead of a bare `Object` ([#18251](https://github.com/can1357/oh-my-pi/pull/18251))
+
+  </details>
 - [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — improved disaggregated serving and inference infrastructure: made the prefill router fail closed with a retryable 503 while a target activates ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)), sized multimodal cache budgets for DeepStack embeddings ([#17249](https://github.com/ai-dynamo/dynamo/pull/17249)), fixed DCGM metrics scrape connection handling ([#17387](https://github.com/ai-dynamo/dynamo/pull/17387)), and made the profiler size Hub checkpoints from their weight files instead of a parameter-count estimate that overstated quantized models 2–3× ([#17563](https://github.com/ai-dynamo/dynamo/pull/17563)) (**8.4K+ ⭐**)
   <details><summary>Featured in ai-dynamo.org updates</summary>
 
