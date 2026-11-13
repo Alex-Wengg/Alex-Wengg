@@ -38,13 +38,13 @@
 
   </details>
 
-<details><summary><b>5 more:</b> PEFT, Supertonic, mlx-audio, vLLM-Omni, KServe</summary>
+<details><summary><b>5 more:</b> PEFT (21K+ ⭐), Supertonic (13.7K+ ⭐), mlx-audio (8.2K+ ⭐), vLLM-Omni (7.7K+ ⭐), KServe (6.2K+ ⭐)</summary>
 
 - [PEFT](https://github.com/huggingface/peft) — fixed FRoD and EVA initialization crashing on Apple Silicon, where MPS has no float64, and the 13 test failures Hugging Face's new macOS CI found ([#4102](https://github.com/huggingface/peft/pull/4102)) (**21K+ ⭐**)
 - [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
-- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.1K+ ⭐**)
-- [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M, the most-downloaded open TTS model, as a native single-stage TTS: loads hexgrad's checkpoint as-is with output identical to the reference package, all 54 voices in 9 languages, streaming behind an OpenAI-compatible endpoint ([#9637](https://github.com/vllm-project/vllm-omni/pull/9637)) (**7.4K+ ⭐**)
-- [KServe](https://github.com/kserve/kserve) — made KEDA autoscaling honor the target type an InferenceService sets for External and PodMetric metrics, instead of silently defaulting to AverageValue ([#6185](https://github.com/kserve/kserve/pull/6185)), and fixed in-flight gRPC requests failing on SIGTERM by unloading models only after the servers drain ([#6488](https://github.com/kserve/kserve/pull/6488)) (**6.1K+ ⭐**)
+- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.2K+ ⭐**)
+- [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M, the most-downloaded open TTS model, as a native single-stage TTS: loads hexgrad's checkpoint as-is with output identical to the reference package, all 54 voices in 9 languages, streaming behind an OpenAI-compatible endpoint ([#9637](https://github.com/vllm-project/vllm-omni/pull/9637)) (**7.7K+ ⭐**)
+- [KServe](https://github.com/kserve/kserve) — made KEDA autoscaling honor the target type an InferenceService sets for External and PodMetric metrics, instead of silently defaulting to AverageValue ([#6185](https://github.com/kserve/kserve/pull/6185)), and fixed in-flight gRPC requests failing on SIGTERM by unloading models only after the servers drain ([#6488](https://github.com/kserve/kserve/pull/6488)) (**6.2K+ ⭐**)
 
 </details>
 
