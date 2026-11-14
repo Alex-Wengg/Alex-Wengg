@@ -14,7 +14,7 @@
 
   </details>
 - [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)), and made a diffusion worker exit after an unrecoverable CUDA error, instead of serving on a broken device while /health still reported ok ([#45065](https://github.com/sgl-project/sglang/pull/45065)) (**40K+ ⭐**)
-- <details><summary><a href="https://github.com/can1357/oh-my-pi">oh-my-pi</a> (<b>38K+ ⭐</b>) — 7 PRs merged to <code>main</code>, in the top ~8% of its ~850 PR authors</summary>
+- <details><summary><a href="https://github.com/can1357/oh-my-pi">oh-my-pi</a> (<b>38K+ ⭐</b>) — 10 PRs merged to <code>main</code>, in the top ~6% of its ~850 PR authors</summary>
 
   - `lsp reload` now stops a superseded shared language server instead of leaving it running for 5 minutes ([#18254](https://github.com/can1357/oh-my-pi/pull/18254))
   - `omp stats` no longer re-parses every session after ZFS renumbers the filesystem's device ([#18536](https://github.com/can1357/oh-my-pi/pull/18536))
@@ -23,6 +23,9 @@
   - Prompt-history search no longer returns unrelated prompts for punctuated queries like `a/b` ([#19111](https://github.com/can1357/oh-my-pi/pull/19111))
   - ACP clients now see what background subagents spend ([#19113](https://github.com/can1357/oh-my-pi/pull/19113))
   - The browser tool records non-Error page rejections as JSON instead of a bare `Object` ([#18251](https://github.com/can1357/oh-my-pi/pull/18251))
+  - Isolated tasks that branch from a commit older than a dirty baseline no longer revert the baseline commit on their task branch ([#19174](https://github.com/can1357/oh-my-pi/pull/19174))
+  - Model discovery skips a listed model whose id names two vendors instead of dropping the provider's whole list ([#19175](https://github.com/can1357/oh-my-pi/pull/19175))
+  - The shell visualization no longer copies a multi-line command's full text into every row, which cost about 1 GB per bash card for long commands ([#19177](https://github.com/can1357/oh-my-pi/pull/19177))
 
   </details>
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.4K+ ⭐**) — 6 commits merged to `main`, in the top ~22% of its ~290 contributors
