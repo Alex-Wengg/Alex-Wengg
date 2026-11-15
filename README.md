@@ -41,9 +41,10 @@
 
   </details>
 
-<details><summary><b>7 more:</b> Cua (32K+ ⭐), PEFT (21K+ ⭐), Supertonic (13.7K+ ⭐), NVIDIA Dynamo (8.4K+ ⭐), mlx-audio (8.2K+ ⭐), vLLM-Omni (7.7K+ ⭐), KServe (6.2K+ ⭐)</summary>
+<details><summary><b>8 more:</b> Cua (32K+ ⭐), Modular (30K+ ⭐), PEFT (21K+ ⭐), Supertonic (13.7K+ ⭐), NVIDIA Dynamo (8.4K+ ⭐), mlx-audio (8.2K+ ⭐), vLLM-Omni (7.7K+ ⭐), KServe (6.2K+ ⭐)</summary>
 
 - [Cua](https://github.com/trycua/cua) — stopped the Windows driver from moving windows off their Task View virtual desktop when it clicks in the background; re-landed by a maintainer as [#7644](https://github.com/trycua/cua/pull/7644) with me as co-author, from [#5782](https://github.com/trycua/cua/pull/5782) (**32K+ ⭐**)
+- [Modular](https://github.com/modular/modular) — fixed Mojo's `input()` reading only the first line of piped stdin and raising EOF on the next call, and its leak of a `FILE` and file descriptor on every call ([#7378](https://github.com/modular/modular/pull/7378)) (**30K+ ⭐**)
 - [PEFT](https://github.com/huggingface/peft) — fixed FRoD and EVA initialization crashing on Apple Silicon, where MPS has no float64, and the 13 test failures Hugging Face's new macOS CI found ([#4102](https://github.com/huggingface/peft/pull/4102)) (**21K+ ⭐**)
 - [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
 - [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — improved disaggregated serving and inference infrastructure: made the prefill router fail closed with a retryable 503 while a target activates ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)), sized multimodal cache budgets for DeepStack embeddings ([#17249](https://github.com/ai-dynamo/dynamo/pull/17249)), fixed DCGM metrics scrape connection handling ([#17387](https://github.com/ai-dynamo/dynamo/pull/17387)), and made the profiler size Hub checkpoints from their weight files instead of a parameter-count estimate that overstated quantized models 2–3× ([#17563](https://github.com/ai-dynamo/dynamo/pull/17563)) (**8.4K+ ⭐**)
