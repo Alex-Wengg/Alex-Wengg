@@ -1,5 +1,5 @@
 **Open-source collaborations and apps**
-- <details><summary><a href="https://github.com/vllm-project/vllm">vLLM</a> (<b>96K+ ⭐</b>) — 10 commits merged to <code>main</code>, in the top ~9% of its ~3,700 contributors</summary>
+- <details><summary><a href="https://github.com/vllm-project/vllm">vLLM</a> (<b>97K+ ⭐</b>) — 10 commits merged to <code>main</code>, in the top ~9% of its ~3,700 contributors</summary>
 
   - Added NVIDIA Canary ([canary-1b-v2](https://huggingface.co/nvidia/canary-1b-v2)): speech recognition and X↔English speech translation in 25 European languages, served through the OpenAI-compatible audio API; output is token-identical to Transformers, with 12.34 WER on earnings22 ([#64215](https://github.com/vllm-project/vllm/pull/64215))
   - Made Canary transcription return a 400 when `language` is missing, instead of silently answering non-English audio in English, and added CI coverage for Canary translation ([#65445](https://github.com/vllm-project/vllm/pull/65445))
@@ -13,8 +13,7 @@
   - Fixed the same mismatch for SigLIP2: its checkpoints ship Gemma's chat template, which vLLM ranked above its own, so SigLIP models now use the SigLIP template and the NaFlex variants keep EOS too; also opened the matching fix on the Hugging Face Hub ([#66624](https://github.com/vllm-project/vllm/pull/66624), [Hub PR](https://huggingface.co/google/siglip2-base-patch16-224/discussions/23))
 
   </details>
-- [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)), and made a diffusion worker exit after an unrecoverable CUDA error, instead of serving on a broken device while /health still reported ok ([#45065](https://github.com/sgl-project/sglang/pull/45065)) (**40K+ ⭐**)
-- <details><summary><a href="https://github.com/can1357/oh-my-pi">oh-my-pi</a> (<b>39K+ ⭐</b>) — 12 PRs merged to <code>main</code>, in the top ~5% of its ~850 PR authors</summary>
+- <details><summary><a href="https://github.com/can1357/oh-my-pi">oh-my-pi</a> (<b>39K+ ⭐</b>) — 14 PRs merged to <code>main</code>, in the top ~4% of its ~900 PR authors</summary>
 
   - `lsp reload` now stops a superseded shared language server instead of leaving it running for 5 minutes ([#18254](https://github.com/can1357/oh-my-pi/pull/18254))
   - `omp stats` no longer re-parses every session after ZFS renumbers the filesystem's device ([#18536](https://github.com/can1357/oh-my-pi/pull/18536))
@@ -28,9 +27,12 @@
   - The shell visualization no longer copies a multi-line command's full text into every row, which cost about 1 GB per bash card for long commands ([#19177](https://github.com/can1357/oh-my-pi/pull/19177))
   - ACP sessions now honor `mcp.startupTimeoutMs`, so a slow MCP server's tools can be ready before the first prompt ([#19286](https://github.com/can1357/oh-my-pi/pull/19286))
   - Mistral's GLM 5.3 and Large 4 now offer and send only the reasoning efforts Mistral documents ([#19287](https://github.com/can1357/oh-my-pi/pull/19287))
+  - The auth broker client treats a 404 as a missing endpoint only when the broker itself sends it, so a reverse proxy that is briefly unrouted no longer turns off credential streaming or usage reporting for the rest of the session ([#19348](https://github.com/can1357/oh-my-pi/pull/19348))
+  - The `eval` tool tells the model how long a cell runs without a `timeout`, the same deadline it enforces, so slow cells ask for more time up front ([#19349](https://github.com/can1357/oh-my-pi/pull/19349))
 
   </details>
-- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.4K+ ⭐**) — 6 commits merged to `main`, in the top ~22% of its ~290 contributors
+- [SGLang](https://github.com/sgl-project/sglang) — fixed the diffusion LoRA merge cache silently reusing stale merged weights after an adapter is rewritten in place, with regression tests ([#44204](https://github.com/sgl-project/sglang/pull/44204)), and made a diffusion worker exit after an unrecoverable CUDA error, instead of serving on a broken device while /health still reported ok ([#45065](https://github.com/sgl-project/sglang/pull/45065)) (**39K+ ⭐**)
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) (**6.5K+ ⭐**) — 6 commits merged to `main`, in the top ~22% of its ~290 contributors
   <details><summary>Workgroup member, Decision 3.0 Core ML port and blog post, trusted-gateway credentials, 3 fixes</summary>
 
   - Member of two [workgroups](https://vllm-sr.ai/community/work-groups): **Router Models & Inference Runtime** and **Developer Experience & Ecosystem**
@@ -43,13 +45,13 @@
 
   </details>
 
-<details><summary><b>8 more:</b> Cua (32K+ ⭐), Modular (30K+ ⭐), PEFT (21K+ ⭐), Supertonic (13.7K+ ⭐), NVIDIA Dynamo (8.4K+ ⭐), mlx-audio (8.2K+ ⭐), vLLM-Omni (7.7K+ ⭐), KServe (6.2K+ ⭐)</summary>
+<details><summary><b>8 more:</b> Cua (32K+ ⭐), Modular (30K+ ⭐), PEFT (21K+ ⭐), Supertonic (13.7K+ ⭐), NVIDIA Dynamo (8.5K+ ⭐), mlx-audio (8.3K+ ⭐), vLLM-Omni (7.9K+ ⭐), KServe (6.2K+ ⭐)</summary>
 
 - [Cua](https://github.com/trycua/cua) — 2 fixes re-landed by maintainers with me as co-author: stopped the Windows driver from moving windows off their Task View virtual desktop when it clicks in the background ([#7644](https://github.com/trycua/cua/pull/7644), from [#5782](https://github.com/trycua/cua/pull/5782)), and made Lume VMs from a digest-pinned macOS image (`…@sha256:…`) reuse the cached base and check the pulled digest, instead of telling users to retry a pull that could never work ([#7868](https://github.com/trycua/cua/pull/7868), from [#6150](https://github.com/trycua/cua/pull/6150)) (**32K+ ⭐**)
-- [Modular](https://github.com/modular/modular) — fixed Mojo's `input()` reading only the first line of piped stdin and raising EOF on the next call, and its leak of a `FILE` and file descriptor on every call ([#7378](https://github.com/modular/modular/pull/7378)) (**30K+ ⭐**)
+- [Modular](https://github.com/modular/modular) — fixed Mojo's `input()` reading only the first line of piped stdin and raising EOF on the next call, and its leak of a `FILE` and file descriptor on every call ([#7378](https://github.com/modular/modular/pull/7378)); declared `std.sys.exit()` as returning `Never`, so a function that ends in `exit()` compiles without a dead `return` ([#7379](https://github.com/modular/modular/pull/7379)); and made file reads and writes over 2 GiB work on macOS, where they raised "Invalid argument" ([#7617](https://github.com/modular/modular/pull/7617)) (**30K+ ⭐**)
 - [PEFT](https://github.com/huggingface/peft) — fixed FRoD and EVA initialization crashing on Apple Silicon, where MPS has no float64, and the 13 test failures Hugging Face's new macOS CI found ([#4102](https://github.com/huggingface/peft/pull/4102)) (**21K+ ⭐**)
 - [Supertonic](https://github.com/supertone-oss-archive/supertonic) — ported Supertonic 3 to Core ML for Apple Neural Engine inference on iOS and macOS (conversion [mobius#64](https://github.com/FluidInference/mobius/pull/64), runtime [FluidAudio#617](https://github.com/FluidInference/FluidAudio/pull/617)) (**13.7K+ ⭐**)
-- [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — improved disaggregated serving and inference infrastructure: made the prefill router fail closed with a retryable 503 while a target activates ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)), sized multimodal cache budgets for DeepStack embeddings ([#17249](https://github.com/ai-dynamo/dynamo/pull/17249)), fixed DCGM metrics scrape connection handling ([#17387](https://github.com/ai-dynamo/dynamo/pull/17387)), and made the profiler size Hub checkpoints from their weight files instead of a parameter-count estimate that overstated quantized models 2–3× ([#17563](https://github.com/ai-dynamo/dynamo/pull/17563)) (**8.4K+ ⭐**)
+- [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) — improved disaggregated serving and inference infrastructure: made the prefill router fail closed with a retryable 503 while a target activates ([#16736](https://github.com/ai-dynamo/dynamo/pull/16736)), sized multimodal cache budgets for DeepStack embeddings ([#17249](https://github.com/ai-dynamo/dynamo/pull/17249)), fixed DCGM metrics scrape connection handling ([#17387](https://github.com/ai-dynamo/dynamo/pull/17387)), made the profiler size Hub checkpoints from their weight files instead of a parameter-count estimate that overstated quantized models 2–3× ([#17563](https://github.com/ai-dynamo/dynamo/pull/17563)), and kept a client's `max_tokens` when a chat request template is configured, instead of replacing it with the template's limit ([#18396](https://github.com/ai-dynamo/dynamo/pull/18396)) (**8.5K+ ⭐**)
   <details><summary>Featured in ai-dynamo.org updates</summary>
 
   https://ai-dynamo.org/#updates
@@ -57,15 +59,15 @@
   <img width="996" height="703" alt="image" src="https://github.com/user-attachments/assets/0d6fceca-322d-4a5d-b6d5-8373f94bdc3b" />
 
   </details>
-- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.2K+ ⭐**)
-- [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M, the most-downloaded open TTS model, as a native single-stage TTS: loads hexgrad's checkpoint as-is with output identical to the reference package, all 54 voices in 9 languages, streaming behind an OpenAI-compatible endpoint ([#9637](https://github.com/vllm-project/vllm-omni/pull/9637)) (**7.7K+ ⭐**)
+- [mlx-audio](https://github.com/Blaizzy/mlx-audio) — added Kokoro-82M v1.1 Mandarin support in MLX ([#341](https://github.com/Blaizzy/mlx-audio/pull/341)) (**8.3K+ ⭐**)
+- [vLLM-Omni](https://github.com/vllm-project/vllm-omni) — added Kokoro-82M, the most-downloaded open TTS model, as a native single-stage TTS: loads hexgrad's checkpoint as-is with output identical to the reference package, all 54 voices in 9 languages, streaming behind an OpenAI-compatible endpoint ([#9637](https://github.com/vllm-project/vllm-omni/pull/9637)) (**7.9K+ ⭐**)
 - [KServe](https://github.com/kserve/kserve) — made KEDA autoscaling honor the target type an InferenceService sets for External and PodMetric metrics, instead of silently defaulting to AverageValue ([#6185](https://github.com/kserve/kserve/pull/6185)), and fixed in-flight gRPC requests failing on SIGTERM by unloading models only after the servers drain ([#6488](https://github.com/kserve/kserve/pull/6488)) (**6.2K+ ⭐**)
 
 </details>
 
 
 **Projects I work on** — at [Fluid Inference](https://github.com/FluidInference), which was acquired by Levenza
-- [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (3.2K+ ⭐)
+- [FluidAudio](https://github.com/FluidInference/FluidAudio) — speech AI SDK for iOS and macOS (3.3K+ ⭐)
   - Supports dozens of commercial [applications](https://github.com/FluidInference/FluidAudio#showcase)
   - [Parakeet TDT V3 Core ML](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml): nearly 3,000,000 total downloads, peaked at 500,000 monthly downloads
 - [FluidUse](https://github.com/FluidInference/FluidUse) — Core ML runtimes for decision models in Swift, including Decision 3.0 (`D3Manager`)
